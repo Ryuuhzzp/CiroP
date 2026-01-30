@@ -1,7 +1,0 @@
-Extensões instaladas em Codespaces: expert space carnival:
-github.codespaces
-github.copilot
-github.copilot-chat
-github.github-vscode-theme
-github.vscode-pull-request-github
-ms-ceintl.vscode-language-pack-pt-br
