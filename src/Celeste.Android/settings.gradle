@@ -1,0 +1,54 @@
+// Repositórios para plugins e dependências
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+    resolutionStrategy {
+        eachPlugin {
+            if (requested.id.id == 'com.android.application') {
+                useModule('com.android.tools.build:gradle:8.4.1')
+            }
+            if (requested.id.id == 'kotlin-android' || requested.id.id == 'org.jetbrains.kotlin.android') {
+                useModule('org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.10')
+            }
+        }
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'celeste_android'
+
+include ':app'
+// O módulo app está dentro da pasta 'android/app' (submodule Android Studio)
+project(':app').projectDir = new File(rootDir, 'android/app')
+
+// Flutter module
+def flutterModulePath = '../../flutter_ui'
+def flutterSdk = System.env.FLUTTER_HOME ?: System.env.FlutterSdkPath
+
+if (flutterSdk == null) {
+    println "⚠️  FLUTTER_HOME não definido. Flutter integration será desabilitada."
+    println "   Configure com: export FLUTTER_HOME=/path/to/flutter"
+} else {
+    println "✓ Flutter SDK encontrado em: $flutterSdk"
+    assert new File(flutterModulePath).exists() : "Flutter module não encontrado em $flutterModulePath"
+    
+    // Integrar Flutter como módulo Add-to-App
+    setBinding(new Binding([gradle: this]))
+    def ideConfig = new File(new File(flutterSdk).parentFile, '.idea/projectConfigurations.gradle')
+    if (ideConfig.exists()) {
+        evaluate(ideConfig)
+    } else {
+        println "⚠️  arquivo ${ideConfig} não encontrado; pulando integração do .idea."
+    }
+}
+git rm --cached -r .vscode-remote

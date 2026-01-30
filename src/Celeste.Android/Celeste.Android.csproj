@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Namespace>Celeste.Android</Namespace>
+    <LangVersion>11</LangVersion>
+    <Nullable>enable</Nullable>
+    <AnalysisLevel>latest</AnalysisLevel>
+    
+    <!-- Android App Configuration -->
+    <ApplicationTitle>Celeste</ApplicationTitle>
+    <ApplicationId>Celestemeown.app</ApplicationId>
+    <ApplicationVersion>1</ApplicationVersion>
+    <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+    
+    <!-- ARM64 Only (64-bit) -->
+    <AndroidSupportedAbis>arm64-v8a</AndroidSupportedAbis>
+    
+    <!-- Publishing/Build -->
+    <PublishTrimmed>false</PublishTrimmed>
+    <TrimMode>partial</TrimMode>
+    <InvariantGlobalization>false</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Celeste.Core\Celeste.Core.csproj" />
+  </ItemGroup>
+
+  <!-- FMOD native libraries (arm64-v8a) -->
+  <ItemGroup>
+    <NativeLibrary Include="Properties/Android/jniLibs/arm64-v8a/*.so" />
+  </ItemGroup>
+
+</Project>

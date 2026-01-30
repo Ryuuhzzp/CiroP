@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "celestemeown.app-release-28:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "celestemeown.app-main-29:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "celestemeown.app-release-28:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "celestemeown.app-main-29:/mipmap-anydpi-v26/ic_launcher.xml"
+    }
+]

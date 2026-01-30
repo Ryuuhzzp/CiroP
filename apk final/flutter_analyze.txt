@@ -1,0 +1,5 @@
+Analyzing flutter_ui...                                         
+
+warning • The asset directory 'assets/' doesn't exist • pubspec.yaml:23:7 • asset_directory_does_not_exist
+
+1 issue found. (ran in 0.7s)

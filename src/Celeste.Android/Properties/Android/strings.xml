@@ -1,0 +1,7 @@
+// Strings resources (en-US)
+// Localize conforme necessário
+
+<resources>
+    <string name="app_name">Celeste</string>
+    <string name="app_description">Celeste - A challenging platformer</string>
+</resources>

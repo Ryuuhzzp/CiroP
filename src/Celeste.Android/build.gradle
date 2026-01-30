@@ -1,0 +1,2 @@
+// Top-level build file; Android app configuration moved to android/app/build.gradle
+// Repositories are configured in `settings.gradle` via dependencyResolutionManagement.

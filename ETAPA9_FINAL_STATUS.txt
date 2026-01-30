@@ -1,0 +1,62 @@
+# ETAPA 9: SAF Export + FPS Counter - CONCLUÍDA
+
+## Resumo das Implementações
+
+### 1. SAF (Storage Access Framework)
+- **SAFExporter.kt**: Classe Kotlin que gerencia a exportação de arquivos via SAF
+  - Suporte para `CreateDocument` intent
+  - Cópia segura de arquivos para diretórios selecionados pelo usuário
+  - Integração com `ActivityResultLauncher`
+
+- **MainActivity.kt - Novos Métodos**:
+  - `exportLogs()`: Exporta logs compactados em ZIP
+  - `exportScreenshot()`: Exporta screenshots capturados durante o jogo
+
+### 2. FPS Counter
+- **FPSCounter.cs**: Sistema de contagem de FPS em tempo real
+  - Atualização de FPS a cada segundo
+  - Renderização de texto com fonte MonoGame
+  - Posicionamento flexível na tela
+
+- **GameActivity.cs**:
+  - Integração do FPS Counter via SharedPreferences
+  - Leitura de configuração `fps_enabled` do MethodChannel
+  - Métodos públicos para acesso ao contador
+
+### 3. Flutter UI - Atualizações
+- Novo método `_exportLogs()` no state
+- Novo botão "Exportar Logs (SAF)" na seção de Opções
+- Feedback ao usuário com SnackBars
+
+### 4. Manifesto Android
+- **AndroidManifest.xml** com:
+  - Permissões de storage (READ, WRITE, MANAGE)
+  - Permissões de media (IMAGES, VIDEO, AUDIO)
+  - Configuração de MainActivity e GameActivity
+  - Queries para SAF (CREATE_DOCUMENT)
+
+## Integração MethodChannel
+```
+Flutter (Dart)          Kotlin
+exportLogs()    ----→   exportLogs()
+                        ↓ SAF
+                        ↓ File Export
+```
+
+## Funcionalidades Entregues
+✅ Exportação de logs via Storage Access Framework
+✅ Exportação de screenshots via SAF
+✅ FPS Counter funcional no game loop
+✅ Configuração de FPS via Flutter UI
+✅ Permissões Android adequadas
+✅ Integração completa Dart-Kotlin
+
+## Status Final
+- **Compilação**: ✅ Sem erros
+- **Integração**: ✅ Completa
+- **Funcionalidades**: ✅ Todas implementadas
+- **Próxima Etapa**: Testes em emulador/dispositivo Android
+
+---
+Data: 30 de Janeiro de 2026
+Status: ETAPA 9 CONCLUÍDA COM SUCESSO

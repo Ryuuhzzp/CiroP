@@ -1,0 +1,6 @@
+/workspaces/Ciro/src/Celeste.Android/android/app/src/main/java/celestemeown/app/android/DownloadObserver.kt
+/workspaces/Ciro/src/Celeste.Android/android/app/src/main/java/celestemeown/app/android/SAFExporter.kt
+/workspaces/Ciro/src/Celeste.Android/android/app/src/main/java/celestemeown/app/android/ContentValidator.kt
+/workspaces/Ciro/src/Celeste.Android/android/app/src/main/java/celestemeown/app/android/MainActivity.kt
+/workspaces/Ciro/src/Celeste.Android/android/app/src/main/java/celestemeown/app/android/GameActivity.kt
+/workspaces/Ciro/src/Celeste.Android/android/app/src/main/java/celestemeown/app/android/AssetInstaller.kt

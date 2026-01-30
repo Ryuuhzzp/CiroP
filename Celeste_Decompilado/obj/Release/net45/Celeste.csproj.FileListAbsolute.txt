@@ -1,0 +1,3 @@
+/workspaces/Ciro/Celeste_Decompilado/obj/Release/net45/Celeste.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Ciro/Celeste_Decompilado/obj/Release/net45/Celeste.csproj.CoreCompileInputs.cache
+/workspaces/Ciro/Celeste_Decompilado/obj/Release/net45/Celeste.sourcelink.json
