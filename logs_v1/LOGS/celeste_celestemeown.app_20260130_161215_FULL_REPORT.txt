@@ -1,0 +1,1330 @@
+=== PKG ===
+celestemeown.app
+
+=== LAUNCH_ACTIVITY ===
+celestemeown.app/.android.MainActivity
+
+=== AM_START / MONKEY ===
+Starting: Intent { cmp=celestemeown.app/.android.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: celestemeown.app/.android.MainActivity
+TotalTime: 1026
+WaitTime: 1033
+Complete
+
+=== PACKAGE PATHS ===
+    userId=10393
+    codePath=/data/app/~~ADlPmTApcacr69ynNob45g==/celestemeown.app-GG4z12Va08c3SpKMWDF_ZA==
+    versionCode=1 minSdk=30 targetSdk=34
+    versionName=1.0
+    dataDir=/data/user/0/celestemeown.app
+    firstInstallTime=2026-01-30 15:46:23
+    lastUpdateTime=2026-01-30 15:46:23
+    installerPackageName=com.google.android.packageinstaller
+
+=== ACTIVITIES (GREP) ===
+1:Activity Resolver Table:
+3:      android.intent.action.MAIN:
+4:        3c9fe01 celestemeown.app/.android.MainActivity filter e2ba4a6
+5:          Action: "android.intent.action.MAIN"
+6:          Category: "android.intent.category.LAUNCHER"
+
+=== DUMPSYS PACKAGE (FULL) ===
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        3c9fe01 celestemeown.app/.android.MainActivity filter e2ba4a6
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Permissions:
+  Permission [celestemeown.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (8d1af4c):
+    sourcePackage=celestemeown.app
+    uid=10393 gids=null type=0 prot=signature
+    perm=Permission{578fb95 celestemeown.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+
+Registered ContentProviders:
+  celestemeown.app/androidx.startup.InitializationProvider:
+    Provider{b68b4aa celestemeown.app/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [celestemeown.app.androidx-startup]:
+    Provider{b68b4aa celestemeown.app/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{f7e084d celestemeown.app}
+
+Key Set Manager:
+  [celestemeown.app]
+      Signing KeySets: 205
+
+Packages:
+  Package [celestemeown.app] (6107438):
+    userId=10393
+    pkg=Package{3babc11 celestemeown.app}
+    codePath=/data/app/~~ADlPmTApcacr69ynNob45g==/celestemeown.app-GG4z12Va08c3SpKMWDF_ZA==
+    resourcePath=/data/app/~~ADlPmTApcacr69ynNob45g==/celestemeown.app-GG4z12Va08c3SpKMWDF_ZA==
+    legacyNativeLibraryDir=/data/app/~~ADlPmTApcacr69ynNob45g==/celestemeown.app-GG4z12Va08c3SpKMWDF_ZA==/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=1 minSdk=30 targetSdk=34
+    versionName=1.0
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=ApplicationInfo{3babc11 celestemeown.app}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[]
+    queriesIntents=[Intent { act=android.intent.action.CREATE_DOCUMENT dat=content:/* }]
+    dataDir=/data/user/0/celestemeown.app
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2026-01-30 15:46:22
+    firstInstallTime=2026-01-30 15:46:23
+    lastUpdateTime=2026-01-30 15:46:23
+    installerPackageName=com.google.android.packageinstaller
+    signatures=PackageSignatures{1f57176 version:3, signatures:[ed4cf15], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    declared permissions:
+      celestemeown.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature, INSTALLED
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.READ_EXTERNAL_STORAGE: restricted=true
+      android.permission.WRITE_EXTERNAL_STORAGE: restricted=true
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.MANAGE_EXTERNAL_STORAGE
+      celestemeown.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+    install permissions:
+      android.permission.INTERNET: granted=true
+      celestemeown.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+    User 0: ceDataInode=691026 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+    overlay paths:
+      /product/overlay/NavigationBarMode3Button/NavigationBarMode3ButtonOverlay.apk
+      /product/overlay/FontNotoSerifSource/FontNotoSerifSourceOverlay.apk
+      /product/overlay/AccentColorDarkLake/AccentColorDarkLakeOverlay.apk
+      /product/overlay/IconShapeRoundedRect/IconShapeRoundedRectOverlay.apk
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+    com.motorola.gamemode:
+      celestemeown.app
+    com.motorola.actions:
+      celestemeown.app
+    com.dts.freefireth:
+      celestemeown.app
+    com.instagram.android:
+      celestemeown.app
+    com.zhiliaoapp.musically:
+      celestemeown.app
+    com.homuraanimes.appclient:
+      celestemeown.app
+    ru.zdevs.zarchiver:
+      celestemeown.app
+    com.facebook.katana:
+      celestemeown.app
+    com.whatsapp:
+      celestemeown.app
+    com.myanimesbrasilv3:
+      celestemeown.app
+    com.infojobs.phone:
+      celestemeown.app
+    com.chikii.game:
+      celestemeown.app
+    app.ninja.flix:
+      celestemeown.app
+  queryable via interaction:
+    User 0:
+      [com.android.wallpaperbackup,com.android.providers.settings,com.android.server.telecom,com.android.localtransport,com.android.inputdevices,android,com.android.location.fused,com.android.keychain,com.motorola.ccc.mainplm,com.android.settings,com.android.dynsystem,com.motorola.android.providers.settings,com.motorola.android.jvtcmd]:
+        celestemeown.app
+      [com.google.android.gms,com.google.android.gsf]:
+        celestemeown.app
+      com.google.android.inputmethod.latin:
+        celestemeown.app
+
+Package Changes:
+  Sequence number=64
+  User 0:
+    seq=1, package=com.motorola.actions
+    seq=5, package=com.facebook.appmanager
+    seq=43, package=com.google.android.apps.docs
+    seq=47, package=com.google.android.gms
+    seq=50, package=app.ninja.flix
+    seq=52, package=com.homuraanimes.appclient
+    seq=53, package=com.myanimesbrasilv3
+    seq=55, package=com.google.android.ext.services
+    seq=63, package=com.openai.chatgpt
+
+
+Dexopt state:
+  [celestemeown.app]
+    path: /data/app/~~ADlPmTApcacr69ynNob45g==/celestemeown.app-GG4z12Va08c3SpKMWDF_ZA==/base.apk
+      arm64: [status=speed-profile] [reason=install]
+
+
+Compiler stats:
+  [celestemeown.app]
+    (No recorded stats)
+
+APEX session state:
+  Session ID: 1375334906
+    State: SUCCESS
+  Session ID: 455965944
+    State: SUCCESS
+  Session ID: 337792889
+    State: SUCCESS
+  Session ID: 1232292624
+    State: SUCCESS
+  Session ID: 1801289683
+    State: SUCCESS
+  Session ID: 305036374
+    State: SUCCESS
+  Session ID: 1367572721
+    State: SUCCESS
+  Session ID: 41574612
+    State: SUCCESS
+  Session ID: 1388979578
+    State: SUCCESS
+  Session ID: 363503712
+    State: SUCCESS
+  Session ID: 325034272
+    State: SUCCESS
+  Session ID: 1020527946
+    State: REVERTED
+  Session ID: 1013433601
+    State: SUCCESS
+  Session ID: 2050144288
+    State: SUCCESS
+  Session ID: 487948451
+    State: SUCCESS
+  Session ID: 1605758236
+    State: SUCCESS
+  Session ID: 2060136788
+    State: SUCCESS
+  Session ID: 1628923280
+    State: SUCCESS
+  Session ID: 1647256359
+    State: SUCCESS
+  Session ID: 502165087
+    State: SUCCESS
+  Session ID: 1046796605
+    State: SUCCESS
+  Session ID: 813150609
+    State: SUCCESS
+  Session ID: 1016934012
+    State: SUCCESS
+  Session ID: 2116179534
+    State: SUCCESS
+  Session ID: 94004610
+    State: SUCCESS
+  Session ID: 429156305
+    State: SUCCESS
+  Session ID: 726052518
+    State: SUCCESS
+  Session ID: 1569384661
+    State: SUCCESS
+  Session ID: 1880773203
+    State: SUCCESS
+  Session ID: 123528914
+    State: REVERTED
+  Session ID: 183156500
+    State: SUCCESS
+  Session ID: 124407930
+    State: REVERTED
+  Session ID: 62737126
+    State: SUCCESS
+  Session ID: 320697841
+    State: SUCCESS
+  Session ID: 258668474
+    State: SUCCESS
+  Session ID: 1053321188
+    State: SUCCESS
+  Session ID: 1398245125
+    State: SUCCESS
+  Session ID: 1679356054
+    State: SUCCESS
+  Session ID: 1778962680
+    State: SUCCESS
+  Session ID: 1072487635
+    State: SUCCESS
+  Session ID: 682669534
+    State: REVERTED
+  Session ID: 1291485269
+    State: SUCCESS
+  Session ID: 2079081410
+    State: SUCCESS
+  Session ID: 228674658
+    State: SUCCESS
+  Session ID: 848833423
+    State: SUCCESS
+  Session ID: 612765140
+    State: SUCCESS
+  Session ID: 1757396444
+    State: SUCCESS
+  Session ID: 1527699220
+    State: SUCCESS
+  Session ID: 1737413953
+    State: SUCCESS
+  Session ID: 275223548
+    State: SUCCESS
+  Session ID: 2026808294
+    State: SUCCESS
+  Session ID: 2054659263
+    State: SUCCESS
+  Session ID: 129883352
+    State: SUCCESS
+  Session ID: 1931809711
+    State: SUCCESS
+  Session ID: 97435086
+    State: SUCCESS
+  Session ID: 1617227163
+    State: SUCCESS
+  Session ID: 1402212961
+    State: SUCCESS
+  Session ID: 779320648
+    State: SUCCESS
+  Session ID: 1643631220
+    State: SUCCESS
+  Session ID: 1279429923
+    State: SUCCESS
+  Session ID: 1536985026
+    State: REVERTED
+  Session ID: 302480969
+    State: SUCCESS
+  Session ID: 416429481
+    State: SUCCESS
+  Session ID: 761808275
+    State: SUCCESS
+  Session ID: 1187161867
+    State: SUCCESS
+  Session ID: 369978186
+    State: SUCCESS
+  Session ID: 419040190
+    State: REVERTED
+  Session ID: 2002826897
+    State: SUCCESS
+  Session ID: 796063802
+    State: SUCCESS
+  Session ID: 575248758
+    State: SUCCESS
+  Session ID: 875873944
+    State: SUCCESS
+  Session ID: 544233531
+    State: ACTIVATION FAILED
+  Session ID: 1388759087
+    State: SUCCESS
+  Session ID: 21073633
+    State: SUCCESS
+  Session ID: 476610280
+    State: SUCCESS
+  Session ID: 679781910
+    State: SUCCESS
+  Session ID: 1879384816
+    State: SUCCESS
+  Session ID: 311974156
+    State: SUCCESS
+  Session ID: 195150713
+    State: SUCCESS
+  Session ID: 281366540
+    State: SUCCESS
+  Session ID: 2057731146
+    State: SUCCESS
+  Session ID: 1916373509
+    State: SUCCESS
+  Session ID: 1245526885
+    State: SUCCESS
+  Session ID: 1021838419
+    State: SUCCESS
+  Session ID: 566803126
+    State: SUCCESS
+  Session ID: 1971579832
+    State: REVERTED
+  Session ID: 785391826
+    State: SUCCESS
+  Session ID: 601787452
+    State: SUCCESS
+  Session ID: 1850298324
+    State: SUCCESS
+  Session ID: 1505650626
+    State: SUCCESS
+  Session ID: 1198690459
+    State: SUCCESS
+  Session ID: 1047802869
+    State: SUCCESS
+  Session ID: 1482574862
+    State: REVERTED
+  Session ID: 48065903
+    State: SUCCESS
+  Session ID: 46710866
+    State: SUCCESS
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+
+=== PID / TOP / PS ===
+PID=25682
+Tasks: 1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+  Mem:  3690748K total,  3605592K used,  87199744 free,   1875968 buffers
+ Swap:  2583516K total,   947908K used,  1635608K free,  1266108K cached
+800%cpu 197%user  10%nice  34%sys 548%idle   0%iow   7%irq   3%sirq   0%host
+   PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS
+ 25682 u0_a393      20   0  13G  80M  77M S  0.0   2.2   0:00.84 celestemeown.app
+u0_a393       25682   8958 13603624 81752 0                   0 S celestemeown.app
+
+=== DROPBOX (TAIL) ===
+  | sysTid=4292 nice=0 cgrp=default sched=0/0 handle=0x6ea23d5c80
+  | state=S schedstat=( 8330123089 7505611749 20737 ) utm=627 stm=205 core=0 HZ=100
+  | stack=0x6ea22de000-0x6ea22e0000 stackSize=995KB
+  | held mutexes=
+  native: #00 pc 000000000009aec4  /apex/com.android.runtime/lib64/bionic/libc.so (__ioctl+4)
+  native: #01 pc 0000000000057ca0  /apex/com.android.runtime/lib64/bionic/libc.so (ioctl+156)
+  native: #02 pc 00000000000519e4  /system/lib64/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+296)
+  native: #03 pc 0000000000051bd4  /system/lib64/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+24)
+  native: #04 pc 00000000000524a0  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+60)
+  native: #05 pc 00000000000785d0  /system/lib64/libbinder.so (android::PoolThread::threadLoop()+44)
+  native: #06 pc 00000000000154d0  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+260)
+  native: #07 pc 00000000000a1ec8  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+144)
+  native: #08 pc 0000000000014d94  /system/lib64/libutils.so (thread_data_t::trampoline(thread_data_t const*)+412)
+  native: #09 pc 00000000000afce8  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+  native: #10 pc 00000000000502c8  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+  (no managed stack frames)
+
+"Binder:1731_14" prio=5 tid=131 Native
+  | group="main" sCount=1 dsCount=0 flags=1 obj=0x13d48868 self=0xb4000070e8c67020
+  | sysTid=4298 nice=0 cgrp=default sched=0/0 handle=0x6ea22d7c80
+  | state=S schedstat=( 12902286963 12454913514 32916 ) utm=928 stm=361 core=2 HZ=100
+  | stack=0x6ea21e0000-0x6ea21e2000 stackSize=995KB
+  | held mutexes=
+  native: #00 pc 000000000009aec4  /apex/com.android.runtime/lib64/bionic/libc.so (__ioctl+4)
+  native: #01 pc 0000000000057ca0  /apex/com.android.runtime/lib64/bionic/libc.so (ioctl+156)
+  native: #02 pc 00000000000519e4  /system/lib64/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+296)
+  native: #03 pc 0000000000051bd4  /system/lib64/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+24)
+  native: #04 pc 00000000000524a0  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+60)
+  native: #05 pc 00000000000785d0  /system/lib64/libbinder.so (android::PoolThread::threadLoop()+44)
+  native: #06 pc 00000000000154d0  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+260)
+  native: #07 pc 00000000000a1ec8  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+144)
+  native: #08 pc 0000000000014d94  /system/lib64/libutils.so (thread_data_t::trampoline(thread_data_t const*)+412)
+  native: #09 pc 00000000000afce8  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+  native: #10 pc 00000000000502c8  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+  (no managed stack frames)
+
+"pool-6-thread-1" prio=5 tid=132 TimedWaiting
+  | group="main" sCount=1 dsCount=0 flags=1 obj=0x13d488e0 self=0xb4000070e8c68bf0
+  | sysTid=4301 nice=0 cgrp=default sched=0/0 handle=0x6e9c270c80
+  | state=S schedstat=( 693403069 646685008 1551 ) utm=28 stm=40 core=2 HZ=100
+  | stack=0x6e9c16d000-0x6e9c16f000 stackSize=1043KB
+  | held mutexes=
+  at sun.misc.Unsafe.park(Native method)
+  - waiting on an unknown object
+  at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2109)
+  at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1132)
+  at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+  at java.lang.Thread.run(Thread.java:923)
+
+"Binder:1731_15" prio=5 tid=133 Native
+  | group="main" sCount=1 dsCount=0 flags=1 obj=0x13d48a38 self=0xb4000070e8c63880
+  | sysTid=4302 nice=0 cgrp=default sched=0/0 handle=0x6e9d4c6c80
+  | state=S schedstat=( 9526000095 6856393182 22694 ) utm=708 stm=244 core=3 HZ=100
+  | stack=0x6e9d3cf000-0x6e9d3d1000 stackSize=995KB
+  | held mutexes=
+  native: #00 pc 000000000009aec4  /apex/com.android.runtime/lib64/bionic/libc.so (__ioctl+4)
+  native: #01 pc 0000000000057ca0  /apex/com.android.runtime/lib64/bionic/libc.so (ioctl+156)
+  native: #02 pc 00000000000519e4  /system/lib64/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+296)
+  native: #03 pc 0000000000051bd4  /system/lib64/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+24)
+  native: #04 pc 00000000000524a0  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+60)
+  native: #05 pc 00000000000785d0  /system/lib64/libbinder.so (android::PoolThread::threadLoop()+44)
+  native: #06 pc 00000000000154d0  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+260)
+  native: #07 pc 00000000000a1ec8  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+144)
+  native: #08 pc 0000000000014d94  /system/lib64/libutils.so (thread_data_t::trampoline(thread_data_t const*)+412)
+  native: #09 pc 00000000000afce8  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+  native: #10 pc 00000000000502c8  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+  (no managed stack frames)
+
+"Binder:1731_16" prio=5 tid=134 Native
+  | group="main" sCount=1 dsCount=0 flags=1 obj=0x13d48ab0 self=0xb4000070e8c6a7c0
+  | sysTid=4304 nice=0 cgrp=default sched=0/0 handle=0x6e9c166c80
+  | state=S schedstat=( 9359221264 7457499679 22505 ) utm=662 stm=273 core=3 HZ=100
+  | stack=0x6e9c06f000-0x6e9c071000 stackSize=995KB
+  | held mutexes=
+  native: #00 pc 000000000009aec4  /apex/com.android.runtime/lib64/bionic/libc.so (__ioctl+4)
+  native: #01 pc 0000000000057ca0  /apex/com.android.runtime/lib64/bionic/libc.so (ioctl+156)
+  native: #02 pc 00000000000519e4  /system/lib64/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+296)
+  native: #03 pc 0000000000051bd4  /system/lib64/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+24)
+  native: #04 pc 00000000000524a0  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+60)
+  native: #05 pc 00000000000785d0  /system/lib64/libbinder.so (android::PoolThread::threadLoop()+44)
+  native: #06 pc 00000000000154d0  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+260)
+  native: #07 pc 00000000000a1ec8  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+144)
+  native: #08 pc 0000000000014d94  /system/lib64/libutils.so (thread_data_t::trampoline(thread_data_t const*)+412)
+  native: #09 pc 00000000000afce8  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+  native: #10 pc 00000000000502c8  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+  (no managed stack frames)
+
+"Binder:1731_17" prio=5 tid=135 Native
+  | group="main" sCount=1 dsCount=0 flags=1 obj=0x13d48b28 self=0xb4000070e8c6fb30
+  | sysTid=4305 nice=0 cgrp=default sched=0/0 handle=0x6e9c009c80
+  | state=S schedstat=( 12676523922 9097405358 30624 ) utm=911 stm=355 core=2 HZ=100
+  | stack=0x6e9bf12000-0x6e9bf14000 stackSize=995KB
+  | held mutexes=
+  native: #00 pc 000000000009aec4  /apex/com.android.runtime/lib64/bionic/libc.so (__ioctl+4)
+  native: #01 pc 0000000000057ca0  /apex/com.android.runtime/lib64/bionic/libc.so (ioctl+156)
+  native: #02 pc 00000000000519e4  /system/lib64/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+296)
+  native: #03 pc 0000000000051bd4  /system/lib64/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+24)
+  native: #04 pc 00000000000524a0  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+60)
+  native: #05 pc 00000000000785d0  /system/lib64/libbinder.so (android::PoolThread::threadLoop()+44)
+  native: #06 pc 00000000000154d0  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+260)
+  native: #07 pc 00000000000a1ec8  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+144)
+  native: #08 pc 0000000000014d94  /system/lib64/libutils.so (thread_data_t::trampoline(thread_data_t const*)+412)
+  native: #09 pc 00000000000afce8  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+  native: #10 pc 00000000000502c8  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+  (no managed stack frames)
+
+"Binder:1731_18" prio=5 tid=136 Native
+  | group="main" sCount=1 dsCount=0 flags=1 obj=0x13d48ba0 self=0xb4000070e8c6c390
+  | sysTid=4306 nice=0 cgrp=default sched=0/0 handle=0x6e9bf0bc80
+  | state=S schedstat=( 4641075908 4337744813 11053 ) utm=339 stm=125 core=1 HZ=100
+  | stack=0x6e9be14000-0x6e9be16000 stackSize=995KB
+  | held mutexes=
+  native: #00 pc 000000000009aec4  /apex/com.android.runtime/lib64/bionic/libc.so (__ioctl+4)
+  native: #01 pc 0000000000057ca0  /apex/com.android.runtime/lib64/bionic/libc.so (ioctl+156)
+  native: #02 pc 00000000000519e4  /system/lib64/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+296)
+  native: #03 pc 0000000000051bd4  /system/lib64/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+24)
+  native: #04 pc 00000000000524a0  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+60)
+  native: #05 pc 00000000000785d0  /system/lib64/libbinder.so (android::PoolThread::threadLoop()+44)
+  native: #06 pc 00000000000154d0  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+260)
+  native: #07 pc 00000000000a1ec8  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+144)
+  native: #08 pc 0000000000014d94  /system/lib64/libutils.so (thread_data_t::trampoline(thread_data_t const*)+412)
+  native: #09 pc 00000000000afce8  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+  native: #10 pc 00000000000502c8  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+  (no managed stack frames)
+
+"Binder:1731_19" prio=5 tid=137 Native
+  | group="main" sCount=1 dsCount=0 flags=1 obj=0x13d48c18 self=0xb4000070e8c6df60
+  | sysTid=4324 nice=0 cgrp=default sched=0/0 handle=0x6e9be0dc80
+  | state=S schedstat=( 11886451925 7674487846 28859 ) utm=841 stm=346 core=5 HZ=100
+  | stack=0x6e9bd16000-0x6e9bd18000 stackSize=995KB
+  | held mutexes=
+  native: #00 pc 000000000009aec4  /apex/com.android.runtime/lib64/bionic/libc.so (__ioctl+4)
+  native: #01 pc 0000000000057ca0  /apex/com.android.runtime/lib64/bionic/libc.so (ioctl+156)
+  native: #02 pc 00000000000519e4  /system/lib64/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+296)
+  native: #03 pc 0000000000051bd4  /system/lib64/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+24)
+  native: #04 pc 00000000000524a0  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+60)
+  native: #05 pc 00000000000785d0  /system/lib64/libbinder.so (android::PoolThread::threadLoop()+44)
+  native: #06 pc 00000000000154d0  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+260)
+  native: #07 pc 00000000000a1ec8  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+144)
+  native: #08 pc 0000000000014d94  /system/lib64/libutils.so (thread_data_t::trampoline(thread_data_t const*)+412)
+  native: #09 pc 00000000000afce8  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+  native: #10 pc 00000000000502c8  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+  (no managed stack frames)
+
+"Binder:1731_1A" prio=5 tid=138 Native
+  | group="main" sCount=1 dsCount=0 flags=1 obj=0x13d48c90 self=0xb4000070e8c74ea0
+  | sysTid=4325 nice=0 cgrp=default sched=0/0 handle=0x6e9bd0fc80
+  | state=S schedstat=( 10830786477 11058272559 26346 ) utm=814 stm=269 core=4 HZ=100
+  | stack=0x6e9bc18000-0x6e9bc1a000 stackSize=995KB
+  | held mutexes=
+  native: #00 pc 000000000009aec4  /apex/com.android.runtime/lib64/bionic/libc.so (__ioctl+4)
+  native: #01 pc 0000000000057ca0  /apex/com.android.runtime/lib64/bionic/libc.so (ioctl+156)
+  native: #02 pc 00000000000519e4  /system/lib64/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+296)
+  native: #03 pc 0000000000051bd4  /system/lib64/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+24)
+  native: #04 pc 00000000000524a0  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+60)
+  native: #05 pc 00000000000785d0  /system/lib64/libbinder.so (android::PoolThread::threadLoop()+44)
+  native: #06 pc 00000000000154d0  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+260)
+  native: #07 pc 00000000000a1ec8  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+144)
+  native: #08 pc 0000000000014d94  /system/lib64/libutils.so (thread_data_t::trampoline(thread_data_t const*)+412)
+  native: #09 pc 00000000000afce8  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+  native: #10 pc 00000000000502c8  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+  (no managed stack frames)
+
+"Binder:1731_1B" prio=5 tid=139 Native
+  | group="main" sCount=1 dsCount=0 flags=1 obj=0x13d48d08 self=0xb4000070e8c7bde0
+  | sysTid=4844 nice=0 cgrp=default sched=0/0 handle=0x6e94bbcc80
+  | state=S schedstat=( 11259226802 7851066471 35345 ) utm=792 stm=333 core=3 HZ=100
+  | stack=0x6e94ac5000-0x6e94ac7000 stackSize=995KB
+  | held mutexes=
+  native: #00 pc 000000000009aec4  /apex/com.android.runtime/lib64/bionic/libc.so (__ioctl+4)
+  native: #01 pc 0000000000057ca0  /apex/com.android.runtime/lib64/bionic/libc.so (ioctl+156)
+  native: #02 pc 00000000000519e4  /system/lib64/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+296)
+  native: #03 pc 0000000000051bd4  /system/lib64/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+24)
+  native: #04 pc 00000000000524a0  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+60)
+  native: #05 pc 00000000000785d0  /system/lib64/libbinder.so (android::PoolThread::threadLoop()+44)
+  native: #06 pc 00000000000154d0  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+260)
+  native: #07 pc 00000000000a1ec8  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+144)
+  native: #08 pc 0000000000014d94  /system/lib64/libutils.so (thread_data_t::trampoline(thread_data_t const*)+412)
+  native: #09 pc 00000000000afce8  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+  native: #10 pc 00000000000502c8  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+  (no managed stack frames)
+
+"Binder:1731_1C" prio=5 tid=140 Native
+  | group="main" sCount=1 dsCount=0 flags=1 obj=0x13d48d80 self=0xb4000070e8c71700
+  | sysTid=4845 nice=0 cgrp=default sched=0/0 handle=0x6e8c9d6c80
+  | state=S schedstat=( 7593741811 7251059677 20208 ) utm=543 stm=215 core=1 HZ=100
+  | stack=0x6e8c8df000-0x6e8c8e1000 stackSize=995KB
+  | held mutexes=
+  native: #00 pc 000000000009aec4  /apex/com.android.runtime/lib64/bionic/libc.so (__ioctl+4)
+  native: #01 pc 0000000000057ca0  /apex/com.android.runtime/lib64/bionic/libc.so (ioctl+156)
+  native: #02 pc 00000000000519e4  /system/lib64/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+296)
+  native: #03 pc 0000000000051bd4  /system/lib64/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+24)
+  native: #04 pc 00000000000524a0  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+60)
+  native: #05 pc 00000000000785d0  /system/lib64/libbinder.so (android::PoolThread::threadLoop()+44)
+  native: #06 pc 00000000000154d0  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+260)
+  native: #07 pc 00000000000a1ec8  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+144)
+  native: #08 pc 0000000000014d94  /system/lib64/libutils.so (thread_data_t::trampoline(thread_data_t const*)+412)
+  native: #09 pc 00000000000afce8  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+  native: #10 pc 00000000000502c8  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+  (no managed stack frames)
+
+"Binder:1731_1D" prio=5 tid=141 Native
+  | group="main" sCount=1 dsCount=0 flags=1 obj=0x13d48df8 self=0xb4000070e8c732d0
+  | sysTid=4850 nice=0 cgrp=default sched=0/0 handle=0x6e66834c80
+  | state=S schedstat=( 4635634482 4725707299 12786 ) utm=327 stm=136 core=4 HZ=100
+  | stack=0x6e6673d000-0x6e6673f000 stackSize=995KB
+  | held mutexes=
+  native: #00 pc 000000000009aec4  /apex/com.android.runtime/lib64/bionic/libc.so (__ioctl+4)
+  native: #01 pc 0000000000057ca0  /apex/com.android.runtime/lib64/bionic/libc.so (ioctl+156)
+  native: #02 pc 00000000000519e4  /system/lib64/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+296)
+  native: #03 pc 0000000000051bd4  /system/lib64/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+24)
+  native: #04 pc 00000000000524a0  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+60)
+  native: #05 pc 00000000000785d0  /system/lib64/libbinder.so (android::PoolThread::threadLoop()+44)
+  native: #06 pc 00000000000154d0  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+260)
+  native: #07 pc 00000000000a1ec8  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+144)
+  native: #08 pc 0000000000014d94  /system/lib64/libutils.so (thread_data_t::trampoline(thread_data_t const*)+412)
+  native: #09 pc 00000000000afce8  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+  native: #10 pc 00000000000502c8  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+  (no managed stack frames)
+
+"Binder:1731_1E" prio=5 tid=142 Native
+  | group="main" sCount=1 dsCount=0 flags=1 obj=0x13d48e70 self=0xb4000070e8c7a210
+  | sysTid=4851 nice=0 cgrp=default sched=0/0 handle=0x6e66736c80
+  | state=S schedstat=( 15779481011 11643320934 32995 ) utm=1177 stm=400 core=3 HZ=100
+  | stack=0x6e6663f000-0x6e66641000 stackSize=995KB
+  | held mutexes=
+  native: #00 pc 000000000009aec4  /apex/com.android.runtime/lib64/bionic/libc.so (__ioctl+4)
+  native: #01 pc 0000000000057ca0  /apex/com.android.runtime/lib64/bionic/libc.so (ioctl+156)
+  native: #02 pc 00000000000519e4  /system/lib64/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+296)
+  native: #03 pc 0000000000051bd4  /system/lib64/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+24)
+  native: #04 pc 00000000000524a0  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+60)
+  native: #05 pc 00000000000785d0  /system/lib64/libbinder.so (android::PoolThread::threadLoop()+44)
+  native: #06 pc 00000000000154d0  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+260)
+  native: #07 pc 00000000000a1ec8  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+144)
+  native: #08 pc 0000000000014d94  /system/lib64/libutils.so (thread_data_t::trampoline(thread_data_t const*)+412)
+  native: #09 pc 00000000000afce8  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+  native: #10 pc 00000000000502c8  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+  (no managed stack frames)
+
+"Binder:1731_1F" prio=5 tid=143 Native
+  | group="main" sCount=1 dsCount=0 flags=1 obj=0x13d48ee8 self=0xb4000070e8c7d9b0
+  | sysTid=4852 nice=0 cgrp=default sched=0/0 handle=0x6e62345c80
+  | state=S schedstat=( 14770465415 11809243827 36967 ) utm=1100 stm=377 core=3 HZ=100
+  | stack=0x6e6224e000-0x6e62250000 stackSize=995KB
+  | held mutexes=
+  native: #00 pc 000000000009aec4  /apex/com.android.runtime/lib64/bionic/libc.so (__ioctl+4)
+  native: #01 pc 0000000000057ca0  /apex/com.android.runtime/lib64/bionic/libc.so (ioctl+156)
+  native: #02 pc 00000000000519e4  /system/lib64/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+296)
+  native: #03 pc 0000000000051bd4  /system/lib64/libbinder.so (android::IPCThreadState::getAndExecu
+
+[[TRUNCATED]]
+
+========================================
+2026-01-30 16:05:58 system_server_wtf (text, 2468 bytes)
+Process: system_server
+PID: 9123
+UID: 1000
+Flags: 0x30c8be09
+Package: android v30 (11)
+Package: com.android.providers.settings v30 (11)
+Package: com.motorola.android.providers.settings v30 (11)
+Foreground: No
+Subject: SystemServiceRegistry
+Build: motorola/def_retail/def:11/RPFS31.Q1-21-20-10/e2d81:user/release-keys
+
+android.util.Log$TerribleFailure: No service published for: batterystats
+	at android.util.Log.wtf(Log.java:313)
+	at android.util.Log.wtf(Log.java:307)
+	at android.app.SystemServiceRegistry.onServiceNotFound(SystemServiceRegistry.java:1970)
+	at android.app.SystemServiceRegistry$CachedServiceFetcher.getService(SystemServiceRegistry.java:1854)
+	at android.app.SystemServiceRegistry.getSystemService(SystemServiceRegistry.java:1517)
+	at android.app.ContextImpl.getSystemService(ContextImpl.java:1938)
+	at com.android.internal.os.PowerProfile.getBatteryCapacity(PowerProfile.java:511)
+	at com.android.internal.os.BatteryStatsImpl.setPowerProfileLocked(BatteryStatsImpl.java:9970)
+	at com.android.server.am.BatteryStatsService.<init>(BatteryStatsService.java:197)
+	at com.android.server.am.ActivityManagerService.<init>(ActivityManagerService.java:2779)
+	at com.android.server.am.ActivityManagerService$Lifecycle.<init>(ActivityManagerService.java:2479)
+	at java.lang.reflect.Constructor.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+	at com.android.server.SystemServiceManager.startService(SystemServiceManager.java:150)
+	at com.android.server.am.ActivityManagerService$Lifecycle.startService(ActivityManagerService.java:2485)
+	at com.android.server.SystemServer.startBootstrapServices(SystemServer.java:801)
+	at com.android.server.SystemServer.run(SystemServer.java:619)
+	at com.android.server.SystemServer.main(SystemServer.java:437)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+Caused by: android.os.ServiceManager$ServiceNotFoundException: No service published for: batterystats
+	at android.os.ServiceManager.getServiceOrThrow(ServiceManager.java:153)
+	at android.app.SystemServiceRegistry$24.createService(SystemServiceRegistry.java:481)
+	at android.app.SystemServiceRegistry$24.createService(SystemServiceRegistry.java:477)
+	at android.app.SystemServiceRegistry$CachedServiceFetcher.getService(SystemServiceRegistry.java:1850)
+	... 17 more
+
+========================================
+2026-01-30 16:05:58 system_server_wtf (text, 1466 bytes)
+Process: system_server
+PID: 9123
+UID: 1000
+Flags: 0x30c8be09
+Package: android v30 (11)
+Package: com.android.providers.settings v30 (11)
+Package: com.motorola.android.providers.settings v30 (11)
+Foreground: No
+Subject: PackageManager
+Build: motorola/def_retail/def:11/RPFS31.Q1-21-20-10/e2d81:user/release-keys
+
+android.util.Log$TerribleFailure: Shared lib without setting: SharedLibraryInfo{name:com.google.android.trichromelibrary, type:static, version:755906033}
+	at android.util.Log.wtf(Log.java:313)
+	at android.util.Slog.wtf(Slog.java:94)
+	at com.android.server.pm.PackageManagerService.executeSharedLibrariesUpdateLPr(PackageManagerService.java:10770)
+	at com.android.server.pm.PackageManagerService.updateSharedLibrariesLocked(PackageManagerService.java:10699)
+	at com.android.server.pm.PackageManagerService.updateAllSharedLibrariesLocked(PackageManagerService.java:10938)
+	at com.android.server.pm.PackageManagerService.<init>(PackageManagerService.java:3521)
+	at com.android.server.pm.PackageManagerService.main(PackageManagerService.java:2656)
+	at com.android.server.SystemServer.startBootstrapServices(SystemServer.java:895)
+	at com.android.server.SystemServer.run(SystemServer.java:619)
+	at com.android.server.SystemServer.main(SystemServer.java:437)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+
+========================================
+2026-01-30 16:05:58 system_server_wtf (text, 1819 bytes)
+Process: system_server
+PID: 9123
+UID: 1000
+Flags: 0x30c8be09
+Package: android v30 (11)
+Package: com.android.providers.settings v30 (11)
+Package: com.motorola.android.providers.settings v30 (11)
+Foreground: No
+Subject: SystemServiceRegistry
+Build: motorola/def_retail/def:11/RPFS31.Q1-21-20-10/e2d81:user/release-keys
+
+android.util.Log$TerribleFailure: Manager wrapper not available: batterymanager
+	at android.util.Log.wtf(Log.java:313)
+	at android.util.Slog.wtf(Slog.java:94)
+	at android.app.SystemServiceRegistry.getSystemService(SystemServiceRegistry.java:1526)
+	at android.app.ContextImpl.getSystemService(ContextImpl.java:1938)
+	at com.android.internal.os.PowerProfile.getBatteryCapacity(PowerProfile.java:511)
+	at com.android.internal.os.BatteryStatsImpl.setPowerProfileLocked(BatteryStatsImpl.java:9970)
+	at com.android.server.am.BatteryStatsService.<init>(BatteryStatsService.java:197)
+	at com.android.server.am.ActivityManagerService.<init>(ActivityManagerService.java:2779)
+	at com.android.server.am.ActivityManagerService$Lifecycle.<init>(ActivityManagerService.java:2479)
+	at java.lang.reflect.Constructor.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+	at com.android.server.SystemServiceManager.startService(SystemServiceManager.java:150)
+	at com.android.server.am.ActivityManagerService$Lifecycle.startService(ActivityManagerService.java:2485)
+	at com.android.server.SystemServer.startBootstrapServices(SystemServer.java:801)
+	at com.android.server.SystemServer.run(SystemServer.java:619)
+	at com.android.server.SystemServer.main(SystemServer.java:437)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+
+========================================
+2026-01-30 16:05:58 system_server_wtf (text, 1466 bytes)
+Process: system_server
+PID: 9123
+UID: 1000
+Flags: 0x30c8be09
+Package: android v30 (11)
+Package: com.android.providers.settings v30 (11)
+Package: com.motorola.android.providers.settings v30 (11)
+Foreground: No
+Subject: PackageManager
+Build: motorola/def_retail/def:11/RPFS31.Q1-21-20-10/e2d81:user/release-keys
+
+android.util.Log$TerribleFailure: Shared lib without setting: SharedLibraryInfo{name:com.google.android.trichromelibrary, type:static, version:755910933}
+	at android.util.Log.wtf(Log.java:313)
+	at android.util.Slog.wtf(Slog.java:94)
+	at com.android.server.pm.PackageManagerService.executeSharedLibrariesUpdateLPr(PackageManagerService.java:10770)
+	at com.android.server.pm.PackageManagerService.updateSharedLibrariesLocked(PackageManagerService.java:10699)
+	at com.android.server.pm.PackageManagerService.updateAllSharedLibrariesLocked(PackageManagerService.java:10938)
+	at com.android.server.pm.PackageManagerService.<init>(PackageManagerService.java:3521)
+	at com.android.server.pm.PackageManagerService.main(PackageManagerService.java:2656)
+	at com.android.server.SystemServer.startBootstrapServices(SystemServer.java:895)
+	at com.android.server.SystemServer.run(SystemServer.java:619)
+	at com.android.server.SystemServer.main(SystemServer.java:437)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+
+========================================
+2026-01-30 16:06:38 SYSTEM_RESTART (text, 429 bytes)
+Subtype: wd_restart
+isPrevious: true
+Build: motorola/def_retail/def:11/RPFS31.Q1-21-20-10/e2d81:user/release-keys
+Hardware: def
+Revision: pvt
+Bootloader: MBM-3.0-def_retail-b287760e9a-220105
+Radio: M6150_09.297.01.68R DEF_LATAMDSDS_CUST
+Kernel: Linux version 4.14.190-perf+ (nobody@android-build) (clang version 10.0.7 for Android NDK, GNU ld (binutils-2.27-bd24d23f) 2.27.0.20170315) #1 SMP PREEMPT Wed Jan 5 08:15:46 CST 2022
+
+
+
+=== LAST ANR ===
+ACTIVITY MANAGER LAST ANR (dumpsys activity lastanr)
+  <no ANR has occurred since boot>
+
+=== LOGCAT FOCUS ===
+01-30 16:12:17.511  9123 11265 I ActivityManager: Force stopping celestemeown.app appid=10393 user=0: from pid 25668
+01-30 16:12:17.524 10611 10611 D HCENfc_RegisteredServicesCache: onReceive() - pkg: celestemeown.app
+01-30 16:12:17.690  9123 11487 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=celestemeown.app/.android.MainActivity} from uid 2000
+01-30 16:12:17.775  9123  9167 I ActivityManager: Start proc 25682:celestemeown.app/u0a393 for pre-top-activity {celestemeown.app/celestemeown.app.android.MainActivity}
+01-30 16:12:17.852  9123  9157 I WindowManager: SURFACE show Surface(name=Splash Screen celestemeown.app)/@0x4c8de74 on display:0
+01-30 16:12:18.191  9123 11265 V WindowManager: Orientation start waiting for draw, mDrawState=DRAW_PENDING in Window{20396f1 u0 Splash Screen celestemeown.app}, surfaceController Surface(name=Splash Screen celestemeown.app)/@0x4c8de74
+01-30 16:12:18.307  9123  9157 I WindowManager: SURFACE SIZE set 2340x1080: Surface(name=Splash Screen celestemeown.app)/@0x4c8de74 on display:0
+01-30 16:12:18.313  9123  9157 V WindowManager: Orientation start waiting for draw, mDrawState=DRAW_PENDING in Window{20396f1 u0 Splash Screen celestemeown.app}, surfaceController Surface(name=Splash Screen celestemeown.app)/@0x4c8de74
+01-30 16:12:18.539  9123 11265 V WindowManager: Changing focus from null to Window{b875c40 u0 celestemeown.app/celestemeown.app.android.MainActivity} displayId=0
+01-30 16:12:18.559  9123  9156 V WindowManager: Orientation start waiting for draw, mDrawState=DRAW_PENDING in Window{20396f1 u0 Splash Screen celestemeown.app}, surfaceController Surface(name=Splash Screen celestemeown.app)/@0x4c8de74
+01-30 16:12:18.560  9123  9156 V WindowManager: Orientation start waiting for draw, mDrawState=DRAW_PENDING in Window{b875c40 u0 celestemeown.app/celestemeown.app.android.MainActivity}, surfaceController Surface(name=celestemeown.app/celestemeown.app.android.MainActivity)/@0x2196ca
+01-30 16:12:18.716  9123  9157 I LaunchCheckinHandler: Displayed celestemeown.app/.android.MainActivity,cp,ca,981
+01-30 16:12:18.717  9123  9157 I WindowManager: SURFACE show Surface(name=celestemeown.app/celestemeown.app.android.MainActivity)/@0x2196ca on display:0
+01-30 16:12:18.774  9123  9165 D ArtManagerInternalImpl: /data/misc/iorapd/celestemeown.app/1/celestemeown.app.android.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+01-30 16:12:18.776  9123  9165 I ActivityTaskManager: Displayed celestemeown.app/.android.MainActivity: +1s26ms
+01-30 16:12:19.264  9123 11265 V WindowManager: Orientation start waiting for draw, mDrawState=DRAW_PENDING in Window{b875c40 u0 celestemeown.app/celestemeown.app.android.MainActivity}, surfaceController Surface(name=celestemeown.app/celestemeown.app.android.MainActivity)/@0x2196ca
+01-30 16:12:19.379 11288 11288 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1349 onStartInput(EditorInfo{EditorInfo{packageName=celestemeown.app, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+01-30 16:12:21.174  9123  9478 V WindowManager: Changing focus from Window{b875c40 u0 celestemeown.app/celestemeown.app.android.MainActivity} to null displayId=0
+01-30 16:12:23.022  9123  9478 V WindowManager: Changing focus from null to Window{b875c40 u0 celestemeown.app/celestemeown.app.android.MainActivity} displayId=0
+01-30 16:12:23.113  9123  9157 I WindowManager: SURFACE show Surface(name=celestemeown.app/celestemeown.app.android.MainActivity)/@0x808ea11 on display:0
+01-30 16:12:23.243  9123  9165 D ArtManagerInternalImpl: /data/misc/iorapd/celestemeown.app/1/celestemeown.app.android.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+01-30 16:12:23.277 11288 11288 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1349 onStartInput(EditorInfo{EditorInfo{packageName=celestemeown.app, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+01-30 16:12:24.129  9123  9194 V WindowManager: Changing focus from Window{b875c40 u0 celestemeown.app/celestemeown.app.android.MainActivity} to null displayId=0
+01-30 16:12:35.911  9123 10974 V WindowManager: Changing focus from null to Window{b875c40 u0 celestemeown.app/celestemeown.app.android.MainActivity} displayId=0
+01-30 16:12:36.003  9123  9157 I WindowManager: SURFACE show Surface(name=celestemeown.app/celestemeown.app.android.MainActivity)/@0xf503dfe on display:0
+01-30 16:12:36.060  9123  9165 D ArtManagerInternalImpl: /data/misc/iorapd/celestemeown.app/1/celestemeown.app.android.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+01-30 16:12:36.186 11288 11288 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1349 onStartInput(EditorInfo{EditorInfo{packageName=celestemeown.app, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+01-30 16:12:37.225  9123 10974 V WindowManager: Changing focus from Window{b875c40 u0 celestemeown.app/celestemeown.app.android.MainActivity} to null displayId=0
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWIScanResultReceiver] Send scan meas to listener
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWIScanResultReceiver] Enter passive listening mode
+01-30 16:12:42.586  1534  1570 D LOWI-9.0.0.66: [LOWIController] sendAsyncScanResponse: Request FreeWifiScanObserver_0 is from a different client.
+01-30 16:12:42.586  1534  1570 D LOWI-9.0.0.66: [LOWIControllerExtn] sendLOWILpDiscoveryScanResponse: Not a discovery scan response
+
+=== LOGCAT ALL (HEAD) ===
+--------- beginning of main
+01-30 16:12:17.052  9710  9710 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+01-30 16:12:17.057  9791  9791 D DeviceStatisticsService: chargerType=1 batteryLevel=12 totalBatteryCapacity=4506200
+01-30 16:12:17.058  9791  9791 D DeviceInfoHidlClient: isPowerInfoNeverSent()=true
+01-30 16:12:17.058  9791  9791 D DeviceInfoHidlClient: getPowerInfoSupportStatus()=-1
+--------- beginning of system
+01-30 16:12:17.511  9123 11265 I ActivityManager: Force stopping celestemeown.app appid=10393 user=0: from pid 25668
+01-30 16:12:17.523 10611 10611 D HCENfc_RegisteredServicesCache: onReceive() - Intent action: android.intent.action.PACKAGE_RESTARTED
+01-30 16:12:17.524 10611 10611 D HCENfc_RegisteredServicesCache: onReceive() - pkg: celestemeown.app
+01-30 16:12:17.525 10611 10611 D HCENfc_RegisteredServicesCache: invalidateCache()
+01-30 16:12:17.525 10611 10611 D HCENfc_RegisteredServicesCache: getInstalledServices()
+01-30 16:12:17.533  9810  9810 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntentAndPhone: No UICC
+01-30 16:12:17.534  9810  9810 D CarrierSvcBindHelper: No carrier app for: 0
+01-30 16:12:17.534 10611 10611 D HCENfc_RegisteredServicesCache: getInstalledStServices() - found 10 resolvedServices
+01-30 16:12:17.534 10611 10611 D HCENfc_RegisteredServicesCache: getInstalledStServices() - componentName:  com.google.android.gms/com.google.android.gms.nearby.mediums.nearfieldcommunication.NfcAdvertisingService
+01-30 16:12:17.536  9810  9810 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntentAndPhone: No UICC
+01-30 16:12:17.536 10611 10611 D APINfc_StApduServiceInfo: Constructor - onHost: true, reading from meta-data
+01-30 16:12:17.536  9810  9810 D CarrierSvcBindHelper: No carrier app for: 1
+01-30 16:12:17.539 10611 10611 D APINfc_StApduServiceInfo: Constructor - mService: null
+01-30 16:12:17.539 10611 10611 D APINfc_StApduServiceInfo: Constructor - mDescription: Nearby
+01-30 16:12:17.539 10611 10611 D APINfc_StApduServiceInfo: Constructor - mOffHostName: null
+01-30 16:12:17.539 10611 10611 D APINfc_StApduServiceInfo: Constructor - groupCategory: other
+01-30 16:12:17.540 10611 10611 D HCENfc_RegisteredServicesCache: getInstalledStServices() - componentName:  com.google.android.gms/com.google.android.gms.pay.hce.service.PayHceService
+01-30 16:12:17.541 10611 10611 D APINfc_StApduServiceInfo: Constructor - onHost: true, reading from meta-data
+01-30 16:12:17.543 10611 10611 D APINfc_StApduServiceInfo: Constructor - mService: null
+01-30 16:12:17.543 10611 10611 D APINfc_StApduServiceInfo: Constructor - mDescription: Carteira do Google
+01-30 16:12:17.543 10611 10611 D APINfc_StApduServiceInfo: Constructor - mOffHostName: null
+01-30 16:12:17.543 10611 10611 D HCENfc_RegisteredServicesCache: getInstalledStServices() - componentName:  com.google.android.gms/com.google.android.gms.tapandpay.hce.service.TpHceService
+01-30 16:12:17.543 10611 10611 D APINfc_StApduServiceInfo: Constructor - onHost: true, reading from meta-data
+01-30 16:12:17.546 10611 10611 D APINfc_StApduServiceInfo: Constructor - mService: null
+01-30 16:12:17.546 10611 10611 D APINfc_StApduServiceInfo: Constructor - mDescription: Google Pay
+01-30 16:12:17.546 10611 10611 D APINfc_StApduServiceInfo: Constructor - mOffHostName: null
+01-30 16:12:17.546 10611 10611 D APINfc_StApduServiceInfo: Constructor - groupCategory: payment
+01-30 16:12:17.546 10611 10611 D HCENfc_RegisteredServicesCache: getInstalledStServices() - componentName:  com.nu.production/br.com.nubank.app.platform_channels.nfc_wallet.HceServiceV2
+01-30 16:12:17.547 10611 10611 D APINfc_StApduServiceInfo: Constructor - onHost: true, reading from meta-data
+01-30 16:12:17.548 10611 10611 D APINfc_StApduServiceInfo: Constructor - mService: null
+01-30 16:12:17.548 10611 10611 D APINfc_StApduServiceInfo: Constructor - mDescription: Nubank
+01-30 16:12:17.548 10611 10611 D APINfc_StApduServiceInfo: Constructor - mOffHostName: null
+01-30 16:12:17.548 10611 10611 D HCENfc_RegisteredServicesCache: getInstalledStServices() - componentName:  com.paypal.android.p2pmobile/com.paypal.android.pdsdk.services.TagService
+01-30 16:12:17.549 10611 10611 D APINfc_StApduServiceInfo: Constructor - onHost: true, reading from meta-data
+01-30 16:12:17.550 10611 10611 D APINfc_StApduServiceInfo: Constructor - mService: null
+01-30 16:12:17.550 10611 10611 D APINfc_StApduServiceInfo: Constructor - mDescription: PayPal P2P Service
+01-30 16:12:17.550 10611 10611 D APINfc_StApduServiceInfo: Constructor - mOffHostName: null
+01-30 16:12:17.550 10611 10611 D APINfc_StApduServiceInfo: Constructor - groupCategory: other
+01-30 16:12:17.551 10611 10611 D HCENfc_RegisteredServicesCache: getInstalledStServices() - componentName:  com.picpay/br.com.iniciador.sdk_android.internal.NFCHostCardService
+01-30 16:12:17.551 10611 10611 D APINfc_StApduServiceInfo: Constructor - onHost: true, reading from meta-data
+01-30 16:12:17.552 10611 10611 D APINfc_StApduServiceInfo: Constructor - mService: null
+01-30 16:12:17.552 10611 10611 D APINfc_StApduServiceInfo: Constructor - mDescription: Pix NFC Reader Service
+01-30 16:12:17.552 10611 10611 D APINfc_StApduServiceInfo: Constructor - mOffHostName: null
+01-30 16:12:17.552 10611 10611 D APINfc_StApduServiceInfo: Constructor - groupCategory: payment
+01-30 16:12:17.553 10611 10611 D HCENfc_RegisteredServicesCache: getInstalledStServices() - componentName:  com.google.android.gms/com.google.android.gms.dck.service.DckNfcApduService
+01-30 16:12:17.553 10611 10611 D APINfc_StApduServiceInfo: Constructor - onHost: true, reading from meta-data
+01-30 16:12:17.556 10611 10611 D APINfc_StApduServiceInfo: Constructor - mService: null
+01-30 16:12:17.556 10611 10611 D APINfc_StApduServiceInfo: Constructor - mDescription: Android Digital Car Key
+01-30 16:12:17.556 10611 10611 D APINfc_StApduServiceInfo: Constructor - mOffHostName: null
+01-30 16:12:17.556 10611 10611 D APINfc_StApduServiceInfo: Constructor - groupCategory: other
+01-30 16:12:17.556 10611 10611 D HCENfc_RegisteredServicesCache: getInstalledStServices() - componentName:  com.google.android.gms/com.google.android.gms.fido.fido2.ui.hybrid.NfcEmulationService
+01-30 16:12:17.558 10611 10611 D APINfc_StApduServiceInfo: Constructor - onHost: true, reading from meta-data
+01-30 16:12:17.560 10611 10611 D APINfc_StApduServiceInfo: Constructor - mService: null
+01-30 16:12:17.560 10611 10611 D APINfc_StApduServiceInfo: Constructor - mDescription: Fido NFC Emulation Service
+01-30 16:12:17.560 10611 10611 D APINfc_StApduServiceInfo: Constructor - mOffHostName: null
+01-30 16:12:17.560 10611 10611 D APINfc_StApduServiceInfo: Constructor - groupCategory: other
+01-30 16:12:17.560 10611 10611 D HCENfc_RegisteredServicesCache: getInstalledStServices() - componentName:  com.nu.production/br.com.nubank.app.platform_channels.nfc_wallet.HceService
+01-30 16:12:17.562 10611 10611 D APINfc_StApduServiceInfo: Constructor - onHost: true, reading from meta-data
+01-30 16:12:17.563 10611 10611 D APINfc_StApduServiceInfo: Constructor - mService: null
+01-30 16:12:17.563 10611 10611 D APINfc_StApduServiceInfo: Constructor - mDescription: Nubank
+01-30 16:12:17.563 10611 10611 D APINfc_StApduServiceInfo: Constructor - mOffHostName: null
+01-30 16:12:17.563 10611 10611 D HCENfc_RegisteredServicesCache: getInstalledStServices() - componentName:  com.motorola.VirtualUiccPayment/com.motorola.VirtualUiccPayment.VirtualUiccPaymentService
+01-30 16:12:17.564 10611 10611 D APINfc_StApduServiceInfo: Constructor - onHost: false, reading from meta-data
+01-30 16:12:17.565 10611 10611 D APINfc_StApduServiceInfo: Constructor - mService: null
+01-30 16:12:17.565 10611 10611 D APINfc_StApduServiceInfo: Constructor - mDescription: Serviço Offhost Virtual
+01-30 16:12:17.565 10611 10611 D APINfc_StApduServiceInfo: Constructor - mOffHostName: null
+01-30 16:12:17.565 10611 10611 D APINfc_StApduServiceInfo: Constructor - groupCategory: payment
+01-30 16:12:17.565 10611 10611 D HCENfc_RegisteredServicesCache: findOrCreateUserLocked()
+01-30 16:12:17.565 10611 10611 D HCENfc_RegisteredServicesCache: invalidateCache() - mLastAddedPackage: null
+01-30 16:12:17.565 10611 10611 D HCENfc_RegisteredServicesCache: containsStServiceLocked()
+01-30 16:12:17.565 10611 10611 I chatty  : uid=1027(nfc) com.android.nfc identical 8 lines
+01-30 16:12:17.565 10611 10611 D HCENfc_RegisteredServicesCache: containsStServiceLocked()
+01-30 16:12:17.565 10611 10611 D HCENfc_RegisteredServicesCache: updateServiceStateFromFile()
+01-30 16:12:17.566 10611 10611 D HCENfc_RegisteredServicesCache: updateServiceStateFromFile() - ServiceStateFileVersion = 1.0
+01-30 16:12:17.566 10611 10611 D HCENfc_RegisteredServicesCache: Next Tag=services
+01-30 16:12:17.566 10611 10611 D HCENfc_RegisteredServicesCache: findOrCreateUserLocked()
+01-30 16:12:17.566 10611 10611 I chatty  : uid=1027(nfc) com.android.nfc identical 4 lines
+01-30 16:12:17.566 10611 10611 D HCENfc_RegisteredServicesCache: findOrCreateUserLocked()
+01-30 16:12:17.567 10611 10611 D HCENfc_RegisteredServicesCache: invalidateCache() - 1 invalidateCache: WriteServiceStateToFile
+01-30 16:12:17.567 10611 10611 D HCENfc_RegisteredServicesCache: writeServiceStateToFile()
+01-30 16:12:17.568 10611 10611 D HCENfc_RegisteredServicesCache: writeServiceStateToFile() - component name com.google.android.gms/com.google.android.gms.nearby.mediums.nearfieldcommunication.NfcAdvertisingService
+01-30 16:12:17.568 10611 10611 D HCENfc_RegisteredServicesCache: writeServiceStateToFile() - component name com.nu.production/br.com.nubank.app.platform_channels.nfc_wallet.HceService
+01-30 16:12:17.568 10611 10611 D HCENfc_RegisteredServicesCache: writeServiceStateToFile() - component name com.paypal.android.p2pmobile/com.paypal.android.pdsdk.services.TagService
+01-30 16:12:17.568 10611 10611 D HCENfc_RegisteredServicesCache: writeServiceStateToFile() - component name com.google.android.gms/com.google.android.gms.fido.fido2.ui.hybrid.NfcEmulationService
+01-30 16:12:17.568 10611 10611 D HCENfc_RegisteredServicesCache: writeServiceStateToFile() - component name com.google.android.gms/com.google.android.gms.pay.hce.service.PayHceService
+01-30 16:12:17.568 10611 10611 D HCENfc_RegisteredServicesCache: writeServiceStateToFile() - component name com.google.android.gms/com.google.android.gms.dck.service.DckNfcApduService
+01-30 16:12:17.574 10611 10611 D HCENfc_CardEmulationManager: onServicesUpdated()
+01-30 16:12:17.574 10611 10611 D HCENfc_CardEmulationManager: verifyDefaults()
+01-30 16:12:17.575 10611 10611 D HCENfc_CardEmulationManager: getDefaultServiceForCategory()
+01-30 16:12:17.575 10611 10611 D HCENfc_RegisteredServicesCache: hasService()
+01-30 16:12:17.575 10611 10611 D HCENfc_RegisteredServicesCache: getStService()
+01-30 16:12:17.575 10611 10611 D HCENfc_RegisteredServicesCache: findOrCreateUserLocked()
+01-30 16:12:17.575 10611 10611 D HCENfc_CardEmulationManager: Current default: ComponentInfo{com.motorola.VirtualUiccPayment/com.motorola.VirtualUiccPayment.VirtualUiccPaymentService}
+01-30 16:12:17.575 10611 10611 D HCENfc_RegisteredAidCache: onServicesUpdated()
+01-30 16:12:17.576 10611 10611 D HCENfc_RegisteredAidCache: generateServiceMapLocked() - nb services: 10
+01-30 16:12:17.576 10611 10611 D HCENfc_RegisteredAidCache: generateServiceMapLocked() - component: ComponentInfo{com.google.android.gms/com.google.android.gms.nearby.mediums.nearfieldcommunication.NfcAdvertisingService}
+01-30 16:12:17.576 10611 10611 D HCENfc_RegisteredAidCache: generateServiceMapLocked() - component: ComponentInfo{com.google.android.gms/com.google.android.gms.pay.hce.service.PayHceService}
+01-30 16:12:17.576 10611 10611 D HCENfc_RegisteredAidCache: generateServiceMapLocked() - component: ComponentInfo{com.google.android.gms/com.google.android.gms.tapandpay.hce.service.TpHceService}
+01-30 16:12:17.576 10611 10611 D HCENfc_RegisteredAidCache: generateServiceMapLocked() - component: ComponentInfo{com.nu.production/br.com.nubank.app.platform_channels.nfc_wallet.HceServiceV2}
+01-30 16:12:17.576 10611 10611 D HCENfc_RegisteredAidCache: generateServiceMapLocked() - component: ComponentInfo{com.paypal.android.p2pmobile/com.paypal.android.pdsdk.services.TagService}
+01-30 16:12:17.576 10611 10611 D HCENfc_RegisteredAidCache: generateServiceMapLocked() - component: ComponentInfo{com.picpay/br.com.iniciador.sdk_android.internal.NFCHostCardService}
+01-30 16:12:17.576 10611 10611 D HCENfc_RegisteredAidCache: generateServiceMapLocked() - component: ComponentInfo{com.google.android.gms/com.google.android.gms.dck.service.DckNfcApduService}
+01-30 16:12:17.576 10611 10611 D HCENfc_RegisteredAidCache: generateServiceMapLocked() - component: ComponentInfo{com.google.android.gms/com.google.android.gms.fido.fido2.ui.hybrid.NfcEmulationService}
+01-30 16:12:17.576 10611 10611 D HCENfc_RegisteredAidCache: generateServiceMapLocked() - component: ComponentInfo{com.nu.production/br.com.nubank.app.platform_channels.nfc_wallet.HceService}
+01-30 16:12:17.577 10611 10611 D HCENfc_RegisteredAidCache: generateServiceMapLocked() - component: ComponentInfo{com.motorola.VirtualUiccPayment/com.motorola.VirtualUiccPayment.VirtualUiccPaymentService}
+01-30 16:12:17.577 10611 10611 D HCENfc_RegisteredAidCache: generateAidCacheLocked() - Nb of AIDs to process: 11
+01-30 16:12:17.577 10611 10611 D HCENfc_RegisteredAidCache: resolveAidConflictLocked() - DECISION: making single handling service ComponentInfo{com.google.android.gms/com.google.android.gms.pay.hce.service.PayHceService} default.
+01-30 16:12:17.577 10611 10611 D HCENfc_RegisteredAidCache: resolveAidConflictLocked() - (Ignoring handling service ComponentInfo{com.google.android.gms/com.google.android.gms.tapandpay.hce.service.TpHceService} because it's not the payment default.)
+01-30 16:12:17.577 10611 10611 D HCENfc_RegisteredAidCache: resolveAidConflictLocked() - (Ignoring handling service ComponentInfo{com.picpay/br.com.iniciador.sdk_android.internal.NFCHostCardService} because it's not the payment default.)
+01-30 16:12:17.577 10611 10611 D HCENfc_RegisteredAidCache: resolveAidConflictLocked() - DECISION: making single handling service ComponentInfo{com.nu.production/br.com.nubank.app.platform_channels.nfc_wallet.HceService} default.
+01-30 16:12:17.577 10611 10611 D HCENfc_RegisteredAidCache: resolveAidConflictLocked() - DECISION: making single handling service ComponentInfo{com.google.android.gms/com.google.android.gms.fido.fido2.ui.hybrid.NfcEmulationService} default.
+01-30 16:12:17.577 10611 10611 D HCENfc_RegisteredAidCache: resolveAidConflictLocked() - DECISION: making single handling service ComponentInfo{com.google.android.gms/com.google.android.gms.pay.hce.service.PayHceService} default.
+01-30 16:12:17.577 10611 10611 D HCENfc_RegisteredAidCache: resolveAidConflictLocked() - DECISION: making single handling service ComponentInfo{com.google.android.gms/com.google.android.gms.dck.service.DckNfcApduService} default.
+01-30 16:12:17.577 10611 10611 D HCENfc_RegisteredAidCache: resolveAidConflictLocked() - (Ignoring handling service ComponentInfo{com.google.android.gms/com.google.android.gms.tapandpay.hce.service.TpHceService} because it's not the payment default.)
+01-30 16:12:17.577 10611 10611 D HCENfc_RegisteredAidCache: resolveAidConflictLocked() - DECISION: making single handling service ComponentInfo{com.nu.production/br.com.nubank.app.platform_channels.nfc_wallet.HceService} default.
+01-30 16:12:17.577 10611 10611 D HCENfc_RegisteredAidCache: resolveAidConflictLocked() - DECISION: making single handling service ComponentInfo{com.paypal.android.p2pmobile/com.paypal.android.pdsdk.services.TagService} default.
+01-30 16:12:17.577 10611 10611 D HCENfc_RegisteredAidCache: resolveAidConflictLocked() - DECISION: making single handling service ComponentInfo{com.paypal.android.p2pmobile/com.paypal.android.pdsdk.services.TagService} default.
+01-30 16:12:17.577 10611 10611 D HCENfc_RegisteredAidCache: resolveAidConflictLocked() - DECISION: making single handling service ComponentInfo{com.google.android.gms/com.google.android.gms.nearby.mediums.nearfieldcommunication.NfcAdvertisingService} default.
+01-30 16:12:17.577 10611 10611 D HCENfc_RegisteredAidCache: resolveAidConflictLocked() - DECISION: making single handling service ComponentInfo{com.nu.production/br.com.nubank.app.platform_channels.nfc_wallet.HceService} default.
+01-30 16:12:17.577 10611 10611 D HCENfc_RegisteredAidCache: updateRoutingLocked() - 11 to route
+01-30 16:12:17.577 10611 10611 D HCENfc_RegisteredAidCache: Not updating routing table because NFC is off.
+01-30 16:12:17.577 10611 10611 D HCENfc_PreferredServices: onServicesUpdated() - mForegroundCurrent : null
+01-30 16:12:17.579 10611 10611 D RegisteredNfcFServicesCache: Service unchanged, not updating
+01-30 16:12:17.579 10611 10611 D NfcService: NfcServiceHandler - handleMessage(MSG_PREFERRED_PAYMENT_CHANGED)
+01-30 16:12:17.579 10611 10611 D NfcService: tryBindSecureElementService()
+01-30 16:12:17.579 10611 10611 D NfcService: tryBindSecureElementService() - binding not needed
+01-30 16:12:17.690  9123 11487 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=celestemeown.app/.android.MainActivity} from uid 2000
+01-30 16:12:17.715  9123 11487 D ActivityTaskManager: getPreferredLaunchDisplay userset_displayid false current displayId -1
+01-30 16:12:17.715  9123 11487 I chatty  : uid=1000(system) Binder:9123_20 identical 1 line
+01-30 16:12:17.721  9123 11487 D ActivityTaskManager: getPreferredLaunchDisplay userset_displayid false current displayId -1
+01-30 16:12:17.725  1040  1040 I QTI PowerHAL: Power setMode: 5 to: 1
+01-30 16:12:17.742  9123  9156 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10393; state: DISABLED
+01-30 16:12:17.743  9123  9156 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10393; state: ENABLED
+01-30 16:12:17.743  9123  9167 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10393; state: ENABLED
+01-30 16:12:17.754  9123  9157 V WindowManager: Changing focus from Window{445eb4d u0 com.termux/com.termux.app.TermuxActivity} to null displayId=0
+01-30 16:12:17.773  8958  8958 D Zygote  : Forked child process 25682
+01-30 16:12:17.775  9123  9167 I ActivityManager: Start proc 25682:celestemeown.app/u0a393 for pre-top-activity {celestemeown.app/celestemeown.app.android.MainActivity}
+01-30 16:12:17.800 25682 25682 E elestemeown.ap: Not starting debugger since process cannot load the jdwp agent.
+01-30 16:12:17.849  1040  1040 I QTI PowerHAL: Power setBoost: 0, duration: 0
+01-30 16:12:17.852  9123  9157 I WindowManager: SURFACE show Surface(name=com.android.systemui.ImageWallpaper)/@0x43df3eb on display:0
+01-30 16:12:17.852  9123  9157 I WindowManager: SURFACE show Surface(name=Splash Screen celestemeown.app)/@0x4c8de74 on display:0
+01-30 16:12:17.860 25682 25682 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+01-30 16:12:17.860 25682 25682 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+01-30 16:12:17.876  9460  9587 D EglHelper: createEglContext start
+01-30 16:12:17.877   685   685 E SELinux : avc:  denied  { find } for pid=9123 uid=1000 name=payjoy_access_service scontext=u:r:system_server:s0 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
+01-30 16:12:17.878  9460  9587 D EglHelper: createEglContext done
+01-30 16:12:17.880  9460  9587 D EglHelper: createEglSurface start
+01-30 16:12:17.881  9123  9156 E SystemServiceRegistry: No service published for: payjoy_access_service
+01-30 16:12:17.881  9123  9156 E SystemServiceRegistry: android.os.ServiceManager$ServiceNotFoundException: No service published for: payjoy_access_service
+01-30 16:12:17.881  9123  9156 E SystemServiceRegistry: 	at android.os.ServiceManager.getServiceOrThrow(ServiceManager.java:153)
+01-30 16:12:17.881  9123  9156 E SystemServiceRegistry: 	at android.app.SystemServiceRegistry$126.createService(SystemServiceRegistry.java:1694)
+01-30 16:12:17.881  9123  9156 E SystemServiceRegistry: 	at android.app.SystemServiceRegistry$StaticServiceFetcher.getService(SystemServiceRegistry.java:1919)
+01-30 16:12:17.881  9123  9156 E SystemServiceRegistry: 	at android.app.SystemServiceRegistry.getSystemService(SystemServiceRegistry.java:1517)
+01-30 16:12:17.881  9123  9156 E SystemServiceRegistry: 	at android.app.ContextImpl.getSystemService(ContextImpl.java:1938)
+01-30 16:12:17.881  9123  9156 E SystemServiceRegistry: 	at com.android.server.wm.ActivityStack.shouldSendPayJoyBroadcast(ActivityStack.java:3645)
+01-30 16:12:17.881  9123  9156 E SystemServiceRegistry: 	at com.android.server.wm.ActivityStack.access$000(ActivityStack.java:188)
+01-30 16:12:17.881  9123  9156 E SystemServiceRegistry: 	at com.android.server.wm.ActivityStack$ActivityStackHandler.handleMessage(ActivityStack.java:316)
+01-30 16:12:17.881  9123  9156 E SystemServiceRegistry: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+01-30 16:12:17.881  9123  9156 E SystemServiceRegistry: 	at android.os.Looper.loop(Looper.java:250)
+01-30 16:12:17.881  9123  9156 E SystemServiceRegistry: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+01-30 16:12:17.881  9123  9156 E SystemServiceRegistry: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+01-30 16:12:17.881  9123  9156 E SystemServiceRegistry: Manager wrapper not available: payjoy_access_service
+01-30 16:12:17.882  9460  9587 D EglHelper: createEglSurface done
+01-30 16:12:17.882  1040  1040 I QTI PowerHAL: Power setBoost: 0, duration: 0
+01-30 16:12:17.915  1143  1212 W DisplayIdentification: Invalid EDID: falling back to serial number due to missing display name.
+01-30 16:12:17.915  1143  1212 W DisplayIdentification: Invalid EDID: falling back to ASCII text due to missing serial number.
+01-30 16:12:17.946 25682 25682 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+01-30 16:12:17.976  9123  9202 D BatteryService: uevent={POWER_SUPPLY_DP_DM=1, POWER_SUPPLY_VOLTAGE_QNOVO=-22, POWER_SUPPLY_VOLTAGE_NOW=3912982, POWER_SUPPLY_SW_JEITA_ENABLED=0, POWER_SUPPLY_FORCE_RECHARGE=0, POWER_SUPPLY_CHARGE_CONTROL_LIMIT_MAX=10, POWER_SUPPLY_RECHARGE_SOC=99, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_TECHNOLOGY=Li-ion, POWER_SUPPLY_CHARGER_TEMP_MAX=450, POWER_SUPPLY_CHARGE_FULL_DESIGN=4000000, POWER_SUPPLY_FCC_STEPPER_ENABLE=0, SEQNUM=114259, POWER_SUPPLY_INPUT_CURRENT_LIMITED=0, POWER_SUPPLY_CHARGE_CONTROL_LIMIT=7, POWER_SUPPLY_STATUS=Charging, POWER_SUPPLY_CYCLE_COUNT=2066, POWER_SUPPLY_BATTERY_CHARGING_ENABLED=1, POWER_SUPPLY_CURRENT_MAX=3600000, POWER_SUPPLY_CHARGE_TERM_CURRENT=-100, POWER_SUPPLY_CAPACITY=12, DEVPATH=/devices/platform/soc/soc:mmi_chrg_manager/power_supply/battery, POWER_SUPPLY_CHARGE_DONE=0, POWER_SUPPLY_CHARGE_TYPE=Fast, POWER_SUPPLY_CHARGER_TEMP=462, POWER_SUPPLY_CHARGE_RATE=None, POWER_SUPPLY_CURRENT_QNOVO=-22, POWER_SUPPLY_CURRENT_NOW=-668000, POWER_SUPPLY_SYSTEM_TEMP_LEVEL=7, POWER_SUPPLY_PRESENT=1, POWER_SUPPLY_PARALLEL_DISABLE=0, POWER_SUPPLY_CHARGE_FULL=3781000, SUBSYSTEM=power_supply, POWER_SUPPLY_SET_SHIP_MODE=0, POWER_SUPPLY_TEMP=420, ACTION=change, POWER_SUPPLY_RERUN_AICL=0, POWER_SUPPLY_AGE=100, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_VOLTAGE_MAX=-22, POWER_SUPPLY_CONSTANT_CHARGE_CURRENT_MAX=3600000, POWER_SUPPLY_CHARGE_COUNTER=540750, POWER_SUPPLY_STEP_CHARGING_ENABLED=0, POWER_SUPPLY_NUM_SYSTEM_TEMP_LEVELS=10, POWER_SUPPLY_DIE_HEALTH=Cool, POWER_SUPPLY_INPUT_SUSPEND=0}
+01-30 16:12:17.990  9710  9710 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+01-30 16:12:18.010  9791  9791 D DeviceStatisticsService: chargerType=1 batteryLevel=12 totalBatteryCapacity=4506200
+01-30 16:12:18.010  9791  9791 D DeviceInfoHidlClient: isPowerInfoNeverSent()=true
+01-30 16:12:18.010  9791  9791 D DeviceInfoHidlClient: getPowerInfoSupportStatus()=-1
+01-30 16:12:18.013  9123  9367 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+01-30 16:12:18.043  9123 11265 W ImageReader_JNI: Unable to acquire a buffer item, very likely client tried to acquire more than maxImages buffers
+01-30 16:12:18.065  9123 11265 I ActivityTaskManager: Config changes=20000480 {0.85 ?mcc?mnc [pt_BR] ldltr sw449dp w927dp h425dp 384dpi nrml long land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2340, 1080) mAppBounds=Rect(0, 0 - 2225, 1080) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_90} s.155 ?spn ?gid}
+01-30 16:12:18.182  9123 11265 I WindowManager: Override config changes=20000480 {0.85 ?mcc?mnc [pt_BR] ldltr sw449dp w927dp h425dp 384dpi nrml long land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2340, 1080) mAppBounds=Rect(0, 0 - 2225, 1080) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_90} s.155 ?spn ?gid} for displayId=0
+01-30 16:12:18.191  9123 11265 V WindowManager: Orientation start waiting for draw, mDrawState=DRAW_PENDING in Window{f0be53a u0 NavigationBar0}, surfaceController Surface(name=NavigationBar0)/@0xba4d249
+01-30 16:12:18.191  9123 11265 V WindowManager: Orientation start waiting for draw, mDrawState=DRAW_PENDING in Window{eb97090 u0 StatusBar}, surfaceController Surface(name=StatusBar)/@0x87baa9e
+01-30 16:12:18.191  9123 11265 V WindowManager: Orientation start waiting for draw, mDrawState=DRAW_PENDING in Window{902f767 u0 InputMethod}, surfaceController Surface(name=InputMethod)/@0xb34a13e
+01-30 16:12:18.191  9123 11265 V WindowManager: Orientation start waiting for draw, mDrawState=DRAW_PENDING in Window{20396f1 u0 Splash Screen celestemeown.app}, surfaceController Surface(name=Splash Screen celestemeown.app)/@0x4c8de74
+01-30 16:12:18.225 11288 11288 I AppBase : AppBase.onConfigurationChanged():292 onConfigurationChanged() : NewConfig = {0.85 ?mcc?mnc [pt_BR] ldltr sw449dp w927dp h425dp 384dpi nrml long land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2340, 1080) mAppBounds=Rect(0, 0 - 2225, 1080) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_90} s.194 ?spn ?gid}
+01-30 16:12:18.231 11288 11288 I GoogleInputMethodService: GoogleInputMethodService.onConfigurationChanged():1046 onConfigurationChanged() : NewConfig = {0.85 ?mcc?mnc [pt_BR] ldltr sw449dp w927dp h425dp 384dpi nrml long land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2340, 1080) mAppBounds=Rect(0, 0 - 2225, 1080) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_90} s.194 ?spn ?gid}
+01-30 16:12:18.231 11288 11288 I GoogleInputMethodService: GoogleInputMethodService.onConfigurationChanged():1047 device real metrics: DisplayMetrics{density=2.4, width=2340, height=1080, scaledDensity=2.4, xdpi=397.565, ydpi=393.615}
+01-30 16:12:18.231 11288 11288 I GlobeKeyExtension: GlobeKeyExtension.onDeactivate():144 
+01-30 16:12:18.232 11288 11288 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltips():153 Tooltip with id SUGGESTION_VIEW_EDU_MINI_DIALOG not found in tooltipManager.
+01-30 16:12:18.232 11288 11288 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():131 shutdown()
+01-30 16:12:18.233 11288 11288 I GoogleInputMethodService: GoogleInputMethodService.onConfigurationChanged():1055 Maybe update OEM display config because of configuration change
+01-30 16:12:18.238 11288 11288 I InputMethodEntryManager: InputMethodEntryManager.notifyCurrentInputMethodEntryOnContextChanged():566 notifyCurrentInputMethodEntryOnContextChanged()
+01-30 16:12:18.238 11288 11288 I InputMethodEntryManager: InputMethodEntryManager.notifyCurrentInputMethodEntryOnContextChanged():587 Notify current input method entry changed on context change
+01-30 16:12:18.242 11288 11288 I KeyboardContextProvider: KeyboardContextProvider$KeyboardContextCache.createKeyboardContext():173 createKeyboardContext(): pt-BR, lig@fab9be7(com.android.inputmethod.latin.LatinIME@4edc620), {0.85 ?mcc?mnc [pt_BR] ldltr sw449dp w927dp h425dp 384dpi nrml long land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2340, 1080) mAppBounds=Rect(0, 0 - 2225, 1080) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_90} s.194 ?spn ?gid}
+01-30 16:12:18.242 11288 11288 I GoogleInputMethodService: GoogleInputMethodService.onCurrentInputMethodEntryChanged():2350 onCurrentInputMethodEntryChanged(): imeDefsChanged=false, entryLanguageVariantChanged=false, keyboardContextChanged=true
+01-30 16:12:18.243 11288 11288 I KeyboardContextProvider: KeyboardContextProvider.setBaseContextAndInvalidKeyboardContextCache():88 setBaseContextAndInvalidKeyboardContextCache(): com.android.inputmethod.latin.LatinIME@4edc620
+01-30 16:12:18.243 11288 11288 I InputMethodEntryManager: InputMethodEntryManager.resetLanguages():2776 resetLanguages(): languages=null, conditionName=orientation
+01-30 16:12:18.246 11288 11288 I ImeDefCache: ImeDefCache.clearCacheForLanguages():375 clearCacheForLanguages(): []
+01-30 16:12:18.246 11288 11288 I AdditionalImeDefCache: AdditionalImeDefCache.clearAdditionalImeDefsForCondition():421 clearAdditionalImeDefsForCondition() clear additional ImeDefs: []
+01-30 16:12:18.246 11288 11288 I InputMethodEntryManager: InputMethodEntryManager.resetLanguages():2787 Clear cache for languages: null, changed=false
+01-30 16:12:18.246 11288 11288 I InputMethodEntryManager: InputMethodEntryManager.startLoadingInputMethodEntrySettings():761 Start loading input method entry settings: [LanguageTagVariantTuple{languageTag=pt-BR, variant=qwerty}, LanguageTagVariantTuple{languageTag=az-AZ, variant=azerbaijani}]
+01-30 16:12:18.249 11288 11288 I InputMethodEntryManager: InputMethodEntryManager.updateInputMethodEntrySettingsLoadingTask():893 update loading task with resetImplicitlyEnabledEntries is false
+01-30 16:12:18.249 11288 11288 I InputMethodEntryManager: InputMethodEntryManager$5.onSuccess():912 Success load entries: [LanguageTagVariantTuple{languageTag=pt-BR, variant=qwerty}, LanguageTagVariantTuple{languageTag=az-AZ, variant=azerbaijani}], resetImplicitlyEnabledEntries=false, initialized=true
+01-30 16:12:18.252 11288 11288 I InputMethodEntryManager: InputMethodEntryManager.changeCurrentInputMethodEntry():2987 Set current input method entry: source=UNSPECIFIED, entryChanged=false, mje{languageTag=pt-BR, variant=qwerty, hasLocalizedResources=true, conditionCacheKey=_android_software_xr_api_spatial=false_app_first_start_timestamp=1641389880923_cache_additional_ime_defs_for_condition_change=false_cache_ime_defs_for_condition_change=false_deprecate_long_press_space_for_ime_picker=false_device=phone_device_size=default_enable_content_suggestion_scroll_away_in_medium=true_enable_content_suggestion_scroll_away_in_small=true_enable_more_candidates_view_for_multilingual=false_enable_number_row=false_enable_number_row_in_password=true_enable_pk_simulator=false_enable_pk_simulator_setting=false_enable_preemptive_decode=true_enable_scrub_move=true_enable_secondary_digits=true_enable_secondary_symbols=false_expressions=normal_four_or_more_letter_rows=false_keyboard_mode=normal_language=pt-BR_layout_9key_split=false_orientation=landscape_physical_keyboard=nokeys_pk_simulator_vk_ready=false_pref_enable_flick_symbols=false_rtl_layout=false_show_comma_key=true_show_period_key=true_show_secondary_digits=true_show_suggestion_strip=true_show_suggestions=true_split_with_duplicate_keys=true_true=true_variant=qwerty_writing_helper_enable_by_word_revert=false, imeDef.stringId=ime_portuguese_brazil, imeDef.className=com.google.android.apps.inputmethod.libs.latin5.LatinIme, imeDef.languageTag=pt-BR}
+01-30 16:12:18.252 11288 11288 I InputMethodEntryManager: InputMethodEntryManager.loadAdditionalImeDefsForCurrentEntry():3010 loadAdditionalImeDefsForCurrentEntry(): mje{languageTag=pt-BR, variant=qwerty, hasLocalizedResources=true, conditionCacheKey=_android_software_xr_api_spatial=false_app_first_start_timestamp=1641389880923_cache_additional_ime_defs_for_condition_change=false_cache_ime_defs_for_condition_change=false_deprecate_long_press_space_for_ime_picker=false_device=phone_device_size=default_enable_content_suggestion_scroll_away_in_medium=true_enable_content_suggestion_scroll_away_in_small=true_enable_more_candidates_view_for_multilingual=false_enable_number_row=false_enable_number_row_in_password=true_enable_pk_simulator=false_enable_pk_simulator_setting=false_enable_preemptive_decode=true_enable_scrub_move=true_enable_secondary_digits=true_enable_secondary_symbols=false_expressions=normal_four_or_more_letter_rows=false_keyboard_mode=normal_language=pt-BR_layout_9key_split=false_orientation=landscape_physical_keyboard=nokeys_pk_simulator_vk_ready=false_pref_enable_flick_symbols=false_rtl_layout=false_show_comma_key=true_show_period_key=true_show_secondary_digits=true_show_suggestion_strip=true_show_suggestions=true_split_with_duplicate_keys=true_true=true_variant=qwerty_writing_helper_enable_by_word_revert=false, imeDef.stringId=ime_portuguese_brazil, imeDef.className=com.google.android.apps.inputmethod.libs.latin5.LatinIme, imeDef.languageTag=pt-BR}
+01-30 16:12:18.258 14053 14053 W fbservices-stub:InitStatus: Not blocking Service (212087937)
+01-30 16:12:18.261 11288 11288 I InputMethodEntryManager: InputMethodEntryManager$7.onSuccess():3026 Success load additional ImeDefs, entryChanged=false, additionalImeDefsChanged=false, [nch{stringId=password, language=und-Latn-x-password, languageTag=und-Latn-x-password, processedConditions={writing_helper_enable_by_word_revert=false, variant=qwerty, true=true, language=pt-BR, enable_number_row=true, device=phone, enable_number_row_in_password=true, enable_pk_simulator=false}, className=com.google.android.libraries.inputmethod.ime.password.PasswordIme, label=2132019326, keyEventInterpreter=null, inlineComposing=true, autoCapital=true, announceAutoSelectedCandidate=true, statusIcon=0, indicatorIcon=0, indicatorLabel=null, displayAppCompletions=false, extraValues=nca{}, processors=nea@cda148, unacceptableMetaKeys=4098, languageSpecificSettings=0, asciiCapable=false, alwaysShowSuggestions=false, useAsciiPasswordKeyboard=false, keyboardGroupDef=ndj@461cbe1, phenotypeFlagId=0, localizationLanguageTag=null, supportsInlineSuggestion=false}, nch{stringId=number, language=und-Latn-x-number, languageTag=und-Latn-x-number, processedConditions={}, className=com.google.android.libraries.inputmethod.ime.DummyIme, label=2132019265, keyEventInterpreter=null, inlineComposing=true, autoCapital=false, announceAutoSelectedCandidate=false, statusIcon=0, indicatorIcon=0, indicatorLabel=null, displayAppCompletions=false, extraValues=nca{}, processors=nea@cda148, unacceptableMetaKeys=4098, languageSpecificSettings=0, asciiCapable=false, alwaysShowSuggestions=false, useAsciiPasswordKeyboard=false, keyboardGroupDef=ndj@ac88d06, phenotypeFlagId=0, localizationLanguageTag=null, supportsInlineSuggestion=false}, nch{stringId=number_password, language=und-Latn-x-number-password, languageTag=und-Latn-x-number-password, processedConditions={}, className=com.google.android.libraries.inputmethod.ime.DummyIme, label=2132019266, keyEventInterpreter=null, inlineComposing=true, autoCapital=false, announceAutoSelectedCandidate=false, statusIcon=0, indicatorIcon=0, indicatorLabel=null, displayAppCompletions=false, extraValues=nca{}, processors=nea@cda148, unacceptableMetaKeys=4098, languageSpecificSettings=0, asciiCapable=false, alwaysShowSuggestions=false, useAsciiPasswordKeyboard=false, keyboardGroupDef=ndj@b000fc7, phenotypeFlagId=0, localizationLanguageTag=null, supportsInlineSuggestion=false}, nch{stringId=phone_number, language=und-Latn-x-phone-number, languageTag=und-Latn-x-phone-number, processedConditions={}, className=com.google.android.libraries.inputmethod.ime.DummyIme, label=2132019364, keyEventInterpreter=null, inlineComposing=true, autoCapital=false, announceAutoSelectedCandidate=false, statusIcon=0, indicatorIcon=0, indicatorLabel=null, displayAppCompletions=false, extraValues=nca{}, processors=nea@cda148, unacceptableMetaKeys=4098, languageSpecificSettings=0, asciiCapable=false, alwaysShowSuggestions=false, useAsciiPasswordKeyboard=false, keyboardGroupDef=ndj@ebf89f4, phenotypeFlagId=0, localizationLanguageTag=null, supportsInlineSuggestion=false}, nch{stringId=date_time, language=und-Latn-x-date-time, languageTag=und-Latn-x-date-time, processedConditions={}, className=com.google.android.libraries.inputmethod.ime.DummyIme, label=2132017772, keyEventInterpreter=null, inlineComposing=true, autoCapital=false, announceAutoSelectedCandidate=false, statusIcon=0, indicatorIcon=0, indicatorLabel=null, displayAppCompletions=false, extraValues=nca{}, processors=nea@cda148, unacceptableMetaKeys=4098, languageSpecificSettings=0, asciiCapable=false, alwaysShowSuggestions=false, useAsciiPasswordKeyboard=false, keyboardGroupDef=ndj@a4e451d, phenotypeFlagId=0, localizationLanguageTag=null, supportsInlineSuggestion=false}]
+01-30 16:12:18.261 11288 11288 I InputMethodEntryManager: InputMethodEntryManager.onSuccessLoadingAdditionalImeDefs():3092 Additional ImeDefs have been loaded, maybe notify entry change: false
+01-30 16:12:18.262 11288 11288 I GoogleInputMethodService: GoogleInputMethodService.onCurrentInputMethodEntryChanged():2350 onCurrentInputMethodEntryChanged(): imeDefsChanged=false, entryLanguageVariantChanged=false, keyboardContextChanged=false
+01-30 16:12:18.262 11288 11288 I GoogleInputMethodService: GoogleInputMethodService.onCurrentInputMethodEntryChanged():2368 Skip the entry change as the input method entry is consider as not changed.
+01-30 16:12:18.262 11288 11288 I AndroidIME: InputBundleManager.reactivateKeyboard():655 
+01-30 16:12:18.280 11288 11722 I SP      : Registering emoticon_content_description.2022081613, url: https://www.gstatic.com/android/keyboard/emoticon_content_desc/202208161305/superpacks_manifest.json, constraints: W:*:*:*, flags: bg, requested: 2022081613, current: 2022081613
+01-30 16:12:18.294 12575 12708 I BtGatt.ScanManager: msg.what = 8
+01-30 16:12:18.307  9123  9157 I WindowManager: SURFACE SIZE set 2340x1080: Surface(name=Splash Screen celestemeown.app)/@0x4c8de74 on display:0
+01-30 16:12:18.313  9123  9157 V WindowManager: Orientation start waiting for draw, mDrawState=DRAW_PENDING in Window{20396f1 u0 Splash Screen celestemeown.app}, surfaceController Surface(name=Splash Screen celestemeown.app)/@0x4c8de74
+01-30 16:12:18.322 12575 12708 I BtGatt.ScanManager: msg.what = 5
+01-30 16:12:18.340  9123  9156 I InputManager-JNI: Viewport [0] to add: local:19260729149824129, isActive: true
+01-30 16:12:18.341   684   684 I lowmemorykiller: Kill 'com.google.process.gapps' (23525), uid 10181, oom_adj 975 to free 52852kB; reason: kernel is busy on reclaim (1510) and low watermark is breached
+01-30 16:12:18.352 11288 11288 I KeyboardThemeProvider: KeyboardThemeProvider.applyKeyboardTheme():27 Apply keyboard theme: theme,BORDER,EXPRESSION_PAPERCUTS_V2,FLAVOR_DPI=XXHDPI,IS_LIGHT,KEYBOARD_MODE=1,KEYBOARD_WIDTH_CATEGORY=NORMAL,KEY_BORDER_SHAPE=1,LANDSCAPE,LIGHT_THEME=true,ORIENTATION=2,PHYSICAL_DIAGONAL=6.5229044,POPUP,SCREEN_SHORTEST_WIDTH=449,SCREEN_SHORTEST_WIDTH_NO_SCALE=449,SW400DP,XXHDPI,enable_popup_on_keypress=true,non_linear_scale,use_expression_papercuts_v2_colors=true,zip_com.google.gboard.20181009.gradient_light.midsummer_night
+01-30 16:12:18.353 11288 11288 I KeyboardWrapper: KeyboardWrapper.activateKeyboard():582 activateKeyboard(): type=prime, status=INACTIVE, imeDef=nch{stringId=password, language=und-Latn-x-password, languageTag=und-Latn-x-password, processedConditions={writing_helper_enable_by_word_revert=false, variant=qwerty, true=true, language=pt-BR, enable_number_row=true, device=phone, enable_number_row_in_password=true, enable_pk_simulator=false}, className=com.google.android.libraries.inputmethod.ime.password.PasswordIme, label=2132019326, keyEventInterpreter=null, inlineComposing=true, autoCapital=true, announceAutoSelectedCandidate=true, statusIcon=0, indicatorIcon=0, indicatorLabel=null, displayAppCompletions=false, extraValues=nca{}, processors=nea@cda148, unacceptableMetaKeys=4098, languageSpecificSettings=0, asciiCapable=false, alwaysShowSuggestions=false, useAsciiPasswordKeyboard=false, keyboardGroupDef=ndj@461cbe1, phenotypeFlagId=0, localizationLanguageTag=null, supportsInlineSuggestion=false}
+01-30 16:12:18.354 11288 11288 I KeyboardManager: KeyboardManager.requestKeyboard():249 Creating keyboard prime, imeId=password, cacheKey=theme,BORDER,EXPRESSION_PAPERCUTS_V2,FLAVOR_DPI=XXHDPI,IS_LIGHT,KEYBOARD_MODE=1,KEYBOARD_WIDTH_CATEGORY=NORMAL,KEY_BORDER_SHAPE=1,LANDSCAPE,LIGHT_THEME=true,ORIENTATION=2,PHYSICAL_DIAGONAL=6.5229044,POPUP,SCREEN_SHORTEST_WIDTH=449,SCREEN_SHORTEST_WIDTH_NO_SCALE=449,SW400DP,XXHDPI,enable_popup_on_keypress=true,non_linear_scale,use_expression_papercuts_v2_colors=true,zip_com.google.gboard.20181009.gradient_light.midsummer_night
+01-30 16:12:18.360 11288 11288 I AbstractOpenableExtension: AbstractOpenableExtension.maybeDestroyExistingKeyboardGroupManager():536 Destroy existing keyboard group manager in fbh
+01-30 16:12:18.361 11288 11288 I AbstractOpenableExtension: AbstractOpenableExtension$3.onSuccess():556 KeyboardGroupManager destroyed in fbh.
+01-30 16:12:18.363 11288 11288 I AbstractOpenableExtension: AbstractOpenableExtension.createKeyboardGroupManagerListenableFuture():121 Create keyboard group manager listenable future in fbh
+01-30 16:12:18.365 11288 11288 I AbstractOpenableExtension: AbstractOpenableExtension.maybeDestroyExistingKeyboardGroupManager():536 Destroy existing keyboard group manager in hkh
+01-30 16:12:18.365 11288 11288 I AbstractOpenableExtension: AbstractOpenableExtension$3.onSuccess():556 KeyboardGroupManager destroyed in hkh.
+01-30 16:12:18.365 11288 11288 I AbstractOpenableExtension: AbstractOpenableExtension.createKeyboardGroupManagerListenableFuture():121 Create keyboard group manager listenable future in hkh
+01-30 16:12:18.366 11288 11288 I AbstractOpenableExtension: AbstractOpenableExtension.maybeDestroyExistingKeyboardGroupManager():536 Destroy existing keyboard group manager in hnc
+01-30 16:12:18.366 11288 11288 I AbstractOpenableExtension: AbstractOpenableExtension$3.onSuccess():556 KeyboardGroupManager destroyed in hnc.
+01-30 16:12:18.366 11288 11288 I AbstractOpenableExtension: AbstractOpenableExtension.createKeyboardGroupManagerListenableFuture():121 Create keyboard group manager listenable future in hnc
+01-30 16:12:18.374  9123  9194 I ActivityManager: Process com.google.process.gapps (pid 23525) has died: cch+75 CEM 
+01-30 16:12:18.374  8958  8958 I Zygote  : Process 23525 exited due to signal 9 (Killed)
+01-30 16:12:18.376  9123  9277 I InputReader: Reconfiguring input devices, changes=DISPLAY_INFO | 
+01-30 16:12:18.381  9123  9277 I InputReader: Device reconfigured: id=4, name='fts_ts', size 1080x2340, orientation 1, mode 1, display id 0
+01-30 16:12:18.382  9123  9168 I libprocessgroup: Successfully killed process cgroup uid 10181 pid 23525 in 0ms
+01-30 16:12:18.383 11288 11722 I SP      : Syncing emoticon_content_description (2022081613) with slices: [7a635888cb828dfa2fc744b7b9b50f04, cd62ab3d1a324ef550d98decf537faf4, b742b83d15626896f47d10c53d057ea8], metadata: false
+01-30 16:12:18.384 11288 11728 I KeyboardGroupDefParser: KeyboardGroupDefParser.parseKeyboardGroupDef():86 parseKeyboardGroupDef() 2132213999 -> 0_resource_name_obfuscated : WaitTime = 0 ms : RunTime = 21 ms
+01-30 16:12:18.394 11288 11740 I KeyboardGroupDefParser: KeyboardGroupDefParser.parseKeyboardGroupDef():86 parseKeyboardGroupDef() 2132213996 -> 0_resource_name_obfuscated : WaitTime = 0 ms : RunTime = 28 ms
+01-30 16:12:18.396 11288 11288 I AndroidIME: KeyboardViewManager.updateKeyboardBackgroundDrawableLevel():403 Set level to the background drawable: 10000
+01-30 16:12:18.397 11288 11288 I AndroidIME: KeyboardViewManager.updateKeyboardBackgroundDrawableLevel():403 Set level to the background drawable: 10000
+01-30 16:12:18.397 11288 11288 I BaseKeyboardSizeHelper: BaseKeyboardSizeHelper.calculateMaxKeyboardBodyHeight():73 leave 257 height for app when ime window height:2145, header height:98 and isFullscreenMode:false, so the max keyboard body height is:1790
+01-30 16:12:18.397 11288 11288 I chatty  : uid=10211(com.google.android.inputmethod.latin) identical 1 line
+01-30 16:12:18.397 11288 11288 I BaseKeyboardSizeHelper: BaseKeyboardSizeHelper.calculateMaxKeyboardBodyHeight():73 leave 257 height for app when ime window height:2145, header height:98 and isFullscreenMode:false, so the max keyboard body height is:1790
+01-30 16:12:18.398 11288 11690 I KeyboardGroupDefParser: KeyboardGroupDefParser.parseKeyboardGroupDef():86 parseKeyboardGroupDef() 2132214000 -> 0_resource_name_obfuscated : WaitTime = 0 ms : RunTime = 32 ms
+01-30 16:12:18.398 11288 11288 I BaseKeyboardSizeHelper: BaseKeyboardSizeHelper.calculateMaxKeyboardBodyHeight():73 leave 257 height for app when ime window height:2145, header height:98 and isFullscreenMode:false, so the max keyboard body height is:1790
+01-30 16:12:18.398 11288 11288 W NotificationCenter: NotificationCenter$NotificationQueue.notifyPendingNotificationsOnExecutor():877 Heavy notify work detected on UI thread: [min->mle] takes 136ms
+01-30 16:12:18.398 11288 11288 W NotificationCenter: NotificationCenter$NotificationQueue.notifyPendingNotificationsOnExecutor():877 Heavy notify work detected on UI thread: [oae->qbf] takes 156ms
+01-30 16:12:18.399 11288 11288 I DeviceModeModule: DeviceModeModule.calculateAndNotify():224 Device mode 'phone' from display metrics 'DisplayMetrics{density=0.0, width=1080, height=2340, scaledDensity=0.0, xdpi=397.565, ydpi=393.615}' or smallestScreenWidthDp: 449
+
+=== LOGCAT ALL (TAIL) ===
+01-30 16:12:38.889  1464 25911 D SimpleC2Component: Using output block pool with poolID 172 => got 172 - 0
+01-30 16:12:38.889 22060 25910 E FMQ     : grantorIdx must be less than 3
+01-30 16:12:38.897 22060 22161 E FMQ     : grantorIdx must be less than 3
+01-30 16:12:38.903 11288 11288 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2092 
+01-30 16:12:38.904 11288 11288 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():103 repeatCheckTimes = 0, locked = false
+01-30 16:12:38.905 11288 11288 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1349 onStartInput(EditorInfo{EditorInfo{packageName=com.termux, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=2000001, privateImeOptions=null, actionName=NONE, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=2131231189, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+01-30 16:12:38.906 11288 11288 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():103 repeatCheckTimes = 1, locked = false
+01-30 16:12:38.907 11288 11288 I GoogleInputMethodService: GoogleInputMethodService.onCreateInputView():1289 onCreateInputView()
+01-30 16:12:38.927 22060 25909 I MediaCodec: (0xb40000785c692d90) stop
+01-30 16:12:38.927 22060 25910 D CCodecBufferChannel: [c2.android.vorbis.decoder#77] MediaCodec discarded an unknown buffer
+01-30 16:12:38.927 22060 25910 I chatty  : uid=10347(com.termux) NDK MediaCodec_ identical 1 line
+01-30 16:12:38.927 22060 25910 D CCodecBufferChannel: [c2.android.vorbis.decoder#77] MediaCodec discarded an unknown buffer
+01-30 16:12:38.929 22060 25909 I MediaCodec: (0xb40000785c692d90) release
+01-30 16:12:38.931 22060 25910 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+01-30 16:12:38.931 11288 11288 V RenderScript: User-backed allocation failed stride requirement, falling back to separate allocation
+01-30 16:12:38.931  1464  3097 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+01-30 16:12:38.931  1464  3097 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+01-30 16:12:38.932 11288 11288 V RenderScript: User-backed allocation failed stride requirement, falling back to separate allocation
+01-30 16:12:38.932  1464  3097 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xb4000074e0074d48 cached: 0/0M, 0/0% in use; allocs: 0, 0% recycled; transfers: 0, 0% unfetched
+01-30 16:12:38.937 11288 11288 I PropertyBackgroundImage: PropertyBackgroundImage.apply():33 Setting a background drawable. drawable:android.graphics.drawable.LayerDrawable@ff31e67, tag:.keyboard-background, visibility:8
+01-30 16:12:38.938 11288 11288 I AndroidIME: LatinIMEBase.updateInputViewCoverNavigation():352 Update input view padding, extendsTouchBelowSpace=false, bottom inset=115
+01-30 16:12:38.939 11288 11288 I GoogleInputMethodService: GoogleInputMethodService.onStartInputView():1447 onStartInputView(EditorInfo{EditorInfo{packageName=com.termux, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=2000001, privateImeOptions=null, actionName=NONE, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=2131231189, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+01-30 16:12:38.940 11288 11288 W ModuleManager: ModuleManager.loadModule():572 Module oaw is not available
+01-30 16:12:38.940 11288 11288 I KeyboardHeightUtil: KeyboardHeightUtil.getOemKeyboardHeightRatio():81 systemKeyboardHeightRatio:1.000000.
+01-30 16:12:38.943 11288 11288 I InputContextChangeTracker: InputContextChangeTracker.fixLyingSelectionRangeFromSurroundingText():1678 fixLyingSelectionRangeFromSurroundingText(): [-1, -1]([-1, -1]) -> [0, 0]([0, 0])
+01-30 16:12:38.944 11288 11288 I AndroidIME: InputBundleManager.loadActiveInputBundleId():528 loadActiveInputBundleId: und-Latn-x-password, password
+01-30 16:12:38.944 11288 11288 I AndroidIME: InputBundleManager.getKeyboardTypeToActive():416 Screen rotating, keyboard type to be activated: ndn[keyboardType=prime, payload=null]
+01-30 16:12:38.945 11288 11288 I AndroidIME: AbstractIme.onActivate():95 PasswordIme.onActivate() : EditorInfo = EditorInfo{packageName=com.termux, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=2000001, privateImeOptions=null, actionName=NONE, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=2131231189, fieldName=null, extras=null, hintText=null, hintLocales=[]}, IncognitoMode = false, DeviceLocked = false
+01-30 16:12:38.945 11288 11288 I KeyboardWrapper: KeyboardWrapper.activateKeyboard():582 activateKeyboard(): type=prime, status=INACTIVE, imeDef=nch{stringId=password, language=und-Latn-x-password, languageTag=und-Latn-x-password, processedConditions={writing_helper_enable_by_word_revert=false, variant=qwerty, true=true, language=pt-BR, enable_number_row=true, device=phone, enable_number_row_in_password=true, enable_pk_simulator=false}, className=com.google.android.libraries.inputmethod.ime.password.PasswordIme, label=2132019326, keyEventInterpreter=null, inlineComposing=true, autoCapital=true, announceAutoSelectedCandidate=true, statusIcon=0, indicatorIcon=0, indicatorLabel=null, displayAppCompletions=false, extraValues=nca{}, processors=nea@cda148, unacceptableMetaKeys=4098, languageSpecificSettings=0, asciiCapable=false, alwaysShowSuggestions=false, useAsciiPasswordKeyboard=false, keyboardGroupDef=ndj@461cbe1, phenotypeFlagId=0, localizationLanguageTag=null, supportsInlineSuggestion=false}
+01-30 16:12:38.946 11288 11288 I KeyboardManager: KeyboardManager.requestKeyboard():249 Creating keyboard prime, imeId=password, cacheKey=theme,BORDER,EXPRESSION_PAPERCUTS_V2,FLAVOR_DPI=XXHDPI,IS_LIGHT,KEYBOARD_WIDTH_CATEGORY=NORMAL,KEY_BORDER_SHAPE=1,LIGHT_THEME=true,PHYSICAL_DIAGONAL=6.5229044,POPUP,SCREEN_SHORTEST_WIDTH=449,SCREEN_SHORTEST_WIDTH_NO_SCALE=449,SW400DP,XXHDPI,bottom4dp,enable_popup_on_keypress=true,non_linear_scale,use_expression_papercuts_v2_colors=true,zip_com.google.gboard.20181009.gradient_light.midsummer_night
+01-30 16:12:38.948 11288 11288 I KeyboardWrapper: KeyboardWrapper.onKeyboardReady():224 onKeyboardReady(): type=null(prime), kb=com.google.android.apps.inputmethod.latin.keyboard.LatinPasswordKeyboard@71141ac
+01-30 16:12:38.949 11288 11288 I KeyboardWrapper: KeyboardWrapper.doActivateKeyboard():612 doActivateKeyboard(): prime
+01-30 16:12:38.993 11288 11288 I KeyboardViewHelper: KeyboardViewHelper.getView():180 Get view with height ratio:1.000000
+01-30 16:12:39.040 11288 11288 I BaseKeyboardSizeHelper: BaseKeyboardSizeHelper.calculateMaxKeyboardBodyHeight():73 leave 257 height for app when ime window height:2145, header height:106 and isFullscreenMode:false, so the max keyboard body height is:1782
+01-30 16:12:39.040 11288 11288 I SoftKeyboardView: SoftKeyboardView.setMaxHeight():1102 Set max keyboard height:1782.
+01-30 16:12:39.045 11288 11288 I AndroidIME: KeyboardViewManager.updateKeyboardBackgroundFrameVisibility():351 Set background frame visibility. old:8, new:8
+01-30 16:12:39.045 11288 11288 I AndroidIME: KeyboardViewManager.updateKeyboardBackgroundDrawableLevel():403 Set level to the background drawable: 10000
+01-30 16:12:39.045 11288 11288 I AndroidIME: KeyboardViewManager.updateKeyboardBackgroundDrawableLevel():403 Set level to the background drawable: 10000
+01-30 16:12:39.045 11288 11288 I BaseKeyboardSizeHelper: BaseKeyboardSizeHelper.calculateMaxKeyboardBodyHeight():73 leave 257 height for app when ime window height:2145, header height:106 and isFullscreenMode:false, so the max keyboard body height is:1782
+01-30 16:12:39.045 11288 11288 I BaseKeyboardSizeHelper: BaseKeyboardSizeHelper.calculateMaxKeyboardBodyHeight():73 leave 257 height for app when ime window height:2145, header height:106 and isFullscreenMode:false, so the max keyboard body height is:1782
+01-30 16:12:39.045 11288 11288 W NormalModeController: NormalModeController.adjustKeyboardBodyHeightRatio():214 Invalid height ratio from decoder -1.000000!
+01-30 16:12:39.046 11288 11288 I GlobeKeyExtension: GlobeKeyExtension.getKeyboardInitialStates():175 
+01-30 16:12:39.047 11288 11288 W KeyboardDef: KeyboardDef.getKeyboardViewDef():739 KeyboardViewDef is not found: keyboardDef=ndb{processedConditions={show_comma_key=true, enable_more_candidates_view_for_multilingual=false, layout_9key_split=false, enable_secondary_symbols=false, pref_enable_flick_symbols=false, language=pt-BR, deprecate_long_press_space_for_ime_picker=false, show_suggestion_strip=true, expressions=normal, android_software_xr_api_spatial=false, variant=qwerty, show_period_key=true, enable_number_row=true, device=phone, keyboard_mode=normal, show_secondary_digits=false, enable_preemptive_decode=true, enable_pk_simulator=false}, globalConditions={global_theme_key=theme,BORDER,EXPRESSION_PAPERCUTS_V2,FLAVOR_DPI=XXHDPI,IS_LIGHT,KEYBOARD_WIDTH_CATEGORY=NORMAL,KEY_BORDER_SHAPE=1,LIGHT_THEME=true,PHYSICAL_DIAGONAL=6.5229044,POPUP,SCREEN_SHORTEST_WIDTH=449,SCREEN_SHORTEST_WIDTH_NO_SCALE=449,SW400DP,XXHDPI,bottom4dp,enable_popup_on_keypress=true,non_linear_scale,use_expression_papercuts_v2_colors=true,zip_com.google.gboard.20181009.gradient_light.midsummer_night, global_locale=pt_BR, global_density_dpi=384, global_orientation=1}, className=.latin.keyboard.LatinPasswordKeyboard, resourceIds=[#0x7f1706c9, #0x7f170891, #0x7f1706bf], initialStates=0, keyboardViewDefs=[ndr{direction=null, id=#0x7f0b0227, isScalable=true, layoutId=#0x7f0e02b2, type=BODY, touchable=true, defaultShow=true}, ndr{direction=null, id=#0x7f0b0227, isScalable=false, layoutId=#0x7f0e020e, type=FLOATING_CANDIDATES, touchable=false, defaultShow=false}, ndr{direction=LOCALE, id=#0x7f0b0227, isScalable=false, layoutId=#0x7f0e0514, type=HEADER, touchable=true, defaultShow=true}], persistentStates=0, persistentStatesPrefKey=null, popupBubbleLayoutId=#0x7f0e05ef, recentKeyLayoutId=#0x0, recentKeyPopupLayoutId=#0x0, recentKeyType=null, rememberRecentKey=NONE, sessionStates=17592186044419}, type=WIDGET, id=2131427879
+01-30 16:12:39.047 11288 11288 W Keyboard: Keyboard.getKeyboardViewHelper():604 null helper is returned: keyboardDef=ndb{processedConditions={show_comma_key=true, enable_more_candidates_view_for_multilingual=false, layout_9key_split=false, enable_secondary_symbols=false, pref_enable_flick_symbols=false, language=pt-BR, deprecate_long_press_space_for_ime_picker=false, show_suggestion_strip=true, expressions=normal, android_software_xr_api_spatial=false, variant=qwerty, show_period_key=true, enable_number_row=true, device=phone, keyboard_mode=normal, show_secondary_digits=false, enable_preemptive_decode=true, enable_pk_simulator=false}, globalConditions={global_theme_key=theme,BORDER,EXPRESSION_PAPERCUTS_V2,FLAVOR_DPI=XXHDPI,IS_LIGHT,KEYBOARD_WIDTH_CATEGORY=NORMAL,KEY_BORDER_SHAPE=1,LIGHT_THEME=true,PHYSICAL_DIAGONAL=6.5229044,POPUP,SCREEN_SHORTEST_WIDTH=449,SCREEN_SHORTEST_WIDTH_NO_SCALE=449,SW400DP,XXHDPI,bottom4dp,enable_popup_on_keypress=true,non_linear_scale,use_expression_papercuts_v2_colors=true,zip_com.google.gboard.20181009.gradient_light.midsummer_night, global_locale=pt_BR, global_density_dpi=384, global_orientation=1}, className=.latin.keyboard.LatinPasswordKeyboard, resourceIds=[#0x7f1706c9, #0x7f170891, #0x7f1706bf], initialStates=0, keyboardViewDefs=[ndr{direction=null, id=#0x7f0b0227, isScalable=true, layoutId=#0x7f0e02b2, type=BODY, touchable=true, defaultShow=true}, ndr{direction=null, id=#0x7f0b0227, isScalable=false, layoutId=#0x7f0e020e, type=FLOATING_CANDIDATES, touchable=false, defaultShow=false}, ndr{direction=LOCALE, id=#0x7f0b0227, isScalable=false, layoutId=#0x7f0e0514, type=HEADER, touchable=true, defaultShow=true}], persistentStates=0, persistentStatesPrefKey=null, popupBubbleLayoutId=#0x7f0e05ef, recentKeyLayoutId=#0x0, recentKeyPopupLayoutId=#0x0, recentKeyType=null, rememberRecentKey=NONE, sessionStates=17592186044419}, type=WIDGET, helpersCreated={HEADER=mpl@f0f1973, BODY=mpl@5211030, FLOATING_CANDIDATES=mpl@722b4a9}, context.getResources().getConfiguration(): {0.85 ?mcc?mnc [pt_BR] ldltr sw449dp w449dp h893dp 384dpi nrml long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2225) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} s.516 ?spn ?gid}
+01-30 16:12:39.048 11288 11288 I BaseKeyboardSizeHelper: BaseKeyboardSizeHelper.calculateMaxKeyboardBodyHeight():73 leave 257 height for app when ime window height:2145, header height:106 and isFullscreenMode:false, so the max keyboard body height is:1782
+01-30 16:12:39.053 11288 11288 I AndroidIME: InputBundleManager.startInput():358 startInput() with ndn[keyboardType=prime, payload=null]
+01-30 16:12:39.053 11288 11288 I GlobeKeyExtension: GlobeKeyExtension.onActivate():120 
+01-30 16:12:39.054 11288 11288 I AutoPasteSuggestionHelper: AutoPasteSuggestionHelper.createProactiveSuggestions():522 Failed to create item chips.
+01-30 16:12:39.054 11288 11288 I NewLanguagePromptExtension: NewLanguagePromptExtension.onActivate():189 Not activated NewLanguagePromptExtension: not a normal text input box.
+01-30 16:12:39.055 11288 11288 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():109 cancelShutdown()
+01-30 16:12:39.055 11288 11288 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():121 syncLanguagePacks()
+01-30 16:12:39.055 11288 11796 I NetworkInfoNotification: NetworkInfoNotification$Listener.onReceive():107 onNetworkAvailable: networkState = NON_METERED, isAirplaneModeOn = false
+01-30 16:12:39.055 11288 15659 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():217 maybeScheduleAutoPackDownloadForFallback()
+01-30 16:12:39.055 11288 11288 I VoiceInputManager: VoiceInputManager.onKeyboardActivated():1213 onKeyboardActivated() [UD]
+01-30 16:12:39.056 11288 15659 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():205 maybeScheduleAutoPackDownload() for language tag pt-BR
+01-30 16:12:39.056 11288 15659 I SpeechPackManager: SpeechPackManager.isPackAvailableToDownload():224 isPackAvailableToDownload() : LanguageTag = pt-BR : ManifestUrl = https://dl.google.com/android/voice/gboard/terse/superpacks-manifest-20210519.json
+01-30 16:12:39.056 11288 11288 I PkModeUpdater: PkModeUpdater.onActivate():74 onActivate false true
+01-30 16:12:39.056 11288 11288 I AccessoryInputModeManager: AccessoryInputModeManager.onModeStarted():321 Accessory input mode started: null
+01-30 16:12:39.056 11288 11288 W SupplementaryKeyboardsWrapper: SupplementaryKeyboardsWrapper.deactivateKeyboard():162 keyboard accessory_candidates_consumer is not activated before!
+01-30 16:12:39.056 11288 12038 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider$1.onSuccess():213 auto download packs.
+01-30 16:12:39.056 11288 12038 I SpeechPackManager: SpeechPackManager.syncPacks():343 syncPacks()
+01-30 16:12:39.056 11288 12038 I SpeechPackManager: SpeechPackManager.isPackAvailableOnDisk():205 isPackAvailableOnDisk() : LanguageTag = az-AZ
+01-30 16:12:39.057 11288 12038 I SpeechPackManager: SpeechPackManager.registerManifest():509 registerManifest() : https://dl.google.com/android/voice/gboard/terse/superpacks-manifest-20210519.json
+01-30 16:12:39.057 11288 11288 I AndroidIME: KeyboardViewManager.updateKeyboardBackgroundDrawableLevel():403 Set level to the background drawable: 10000
+01-30 16:12:39.057 11288 11288 I AndroidIME: KeyboardViewManager.updateKeyboardBackgroundDrawableLevel():403 Set level to the background drawable: 10000
+01-30 16:12:39.057 11288 11288 I BaseKeyboardSizeHelper: BaseKeyboardSizeHelper.calculateMaxKeyboardBodyHeight():73 leave 257 height for app when ime window height:2145, header height:106 and isFullscreenMode:false, so the max keyboard body height is:1782
+01-30 16:12:39.057 11288 11288 I BaseKeyboardSizeHelper: BaseKeyboardSizeHelper.calculateMaxKeyboardBodyHeight():73 leave 257 height for app when ime window height:2145, header height:106 and isFullscreenMode:false, so the max keyboard body height is:1782
+01-30 16:12:39.057 11288 11288 W NormalModeController: NormalModeController.adjustKeyboardBodyHeightRatio():214 Invalid height ratio from decoder -1.000000!
+01-30 16:12:39.058 11288 11288 W ExtensionWrapper: ExtensionWrapper.setExtensionViewVisibility():863 interface msq is not activate
+01-30 16:12:39.058 11288 12038 I SpeechPackManager: SpeechPackManager.registerManifest():516 registerManifest() : Reusing hash 1327534105
+01-30 16:12:39.059 11288 11288 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():103 repeatCheckTimes = 1, locked = false
+01-30 16:12:39.059 11288 11722 I SpeechPackSlicingStrategy: SpeechPackSlicingStrategy.getSlices():52 getSlices() : ForceUpdates = false : LanguageTags = [pt-BR]
+01-30 16:12:39.060 11288 11288 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomaticallyInCurrentInputBox():384 No private IME option set to start voice input.
+01-30 16:12:39.061 11288 11722 I SpeechPackSlicingStrategy: SpeechPackSlicingStrategy.getSlices():66 getSlices(): slicing result: {slices=[{gboard-small-speech-packs:pt-BR-v200-f20, W:C:*:*, bg}], last batch=true, sync metadata=false}
+01-30 16:12:39.063 11288 11722 I SP      : Syncing gboard-small-speech-packs (1327534105) with slices: [{pt-BR-v200-f20, W:C:*:*, bg}], metadata: false
+01-30 16:12:39.071 10473 10694 W CursorWindow: Window is full: requested allocation 63 bytes, free space 32 bytes, window size 2097152 bytes
+01-30 16:12:39.079 11288 11288 I AndroidIME: KeyboardViewManager.updateKeyboardBackgroundFrameVisibility():351 Set background frame visibility. old:8, new:0
+01-30 16:12:39.079 11288 11288 I KeyboardModeUtils: KeyboardModeUtils.getKeyboardBottomOffset():435 inch: 0.000000 ydpi: 393.614990 adjustKeyboardBottomByDisplaySize: false currentDensityDpi: 384 defaultDensityDpi: 384 keyboardBottomToScreenPx: 0 keyboardBottomToNavBarPx: -115 navBarHeight: 115
+01-30 16:12:39.079 11288 11288 I BaseKeyboardSizeHelper: BaseKeyboardSizeHelper.calculateMaxKeyboardBodyHeight():73 leave 257 height for app when ime window height:2145, header height:106 and isFullscreenMode:false, so the max keyboard body height is:1782
+01-30 16:12:39.080 11288 11288 I BaseKeyboardSizeHelper: BaseKeyboardSizeHelper.calculateMaxKeyboardBodyHeight():73 leave 257 height for app when ime window height:2145, header height:106 and isFullscreenMode:false, so the max keyboard body height is:1782
+01-30 16:12:39.080 11288 11288 I WindowMetricsNotification: WindowMetricsNotification.notifyWithWindow():166 
+01-30 16:12:39.081 11288 11288 I DeviceModeModule: DeviceModeModule.calculateAndNotify():224 Device mode 'phone' from display metrics 'DisplayMetrics{density=0.0, width=1080, height=2340, scaledDensity=0.0, xdpi=397.565, ydpi=393.615}' or smallestScreenWidthDp: 449
+01-30 16:12:39.081 11288 11288 I GoogleInputMethodService: GoogleInputMethodService$8.onWindowMetricsChanged():801 windowMetrics: bounds() = Rect(0, 80 - 1080, 2340), insets() = Rect(0, 0 - 0, 115)
+01-30 16:12:39.081 11288 11288 I AndroidIME: LatinIMEBase.updateInputViewCoverNavigation():352 Update input view padding, extendsTouchBelowSpace=false, bottom inset=115
+01-30 16:12:39.082 11288 11288 I BaseKeyboardSizeHelper: BaseKeyboardSizeHelper.calculateMaxKeyboardBodyHeight():73 leave 257 height for app when ime window height:2145, header height:106 and isFullscreenMode:false, so the max keyboard body height is:1782
+01-30 16:12:39.082 11288 11288 I AndroidIME: KeyboardViewManager.updateKeyboardBackgroundDrawableLevel():403 Set level to the background drawable: 10000
+01-30 16:12:39.083 11288 11288 I AndroidIME: KeyboardViewManager.updateKeyboardBackgroundDrawableLevel():403 Set level to the background drawable: 10000
+01-30 16:12:39.083 11288 11288 I KeyboardModeUtils: KeyboardModeUtils.getKeyboardBottomOffset():435 inch: 0.000000 ydpi: 393.614990 adjustKeyboardBottomByDisplaySize: false currentDensityDpi: 384 defaultDensityDpi: 384 keyboardBottomToScreenPx: 0 keyboardBottomToNavBarPx: -115 navBarHeight: 115
+01-30 16:12:39.083 11288 11288 I BaseKeyboardSizeHelper: BaseKeyboardSizeHelper.calculateMaxKeyboardBodyHeight():73 leave 257 height for app when ime window height:2145, header height:106 and isFullscreenMode:false, so the max keyboard body height is:1782
+01-30 16:12:39.083 11288 11288 I chatty  : uid=10211(com.google.android.inputmethod.latin) identical 2 lines
+01-30 16:12:39.083 11288 11288 I BaseKeyboardSizeHelper: BaseKeyboardSizeHelper.calculateMaxKeyboardBodyHeight():73 leave 257 height for app when ime window height:2145, header height:106 and isFullscreenMode:false, so the max keyboard body height is:1782
+01-30 16:12:39.084 11288 11288 I WindowMetricsNotification: WindowMetricsNotification.notify():159 pze[bounds=Rect(0, 80 - 1080, 2340), insets=Rect(0, 0 - 0, 115), densityDpi=384, smallestScreenWidthDp=449, displayWidth=1080, displayHeight=2340, xdpi=397.565, ydpi=393.615, isTrustable=true, displayId=0]; DisplayMetrics{density=2.4, width=1080, height=2340, scaledDensity=2.4, xdpi=397.565, ydpi=393.615}
+01-30 16:12:39.084 11288 11288 W View    : requestLayout() improperly called by com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner{b6966b9 V.E...... ......ID 0,0-1080,106 #7f0b038e app:id/0_resource_name_obfuscated} during layout: running second layout pass
+01-30 16:12:39.084 11288 11288 W View    : requestLayout() improperly called by com.google.android.libraries.inputmethod.widgets.SoftKeyView{5434afe VFE...C.. ......ID 5,0-106,106 #7f0b04e5 app:id/key_pos_header_access_points_menu} during layout: running second layout pass
+01-30 16:12:39.084 11288 11288 W View    : requestLayout() improperly called by com.google.android.libraries.inputmethod.widgets.CopyImageSourceView{cf4825f V.ED..... ......ID 5,0-1075,106 #7f0b01e4 app:id/0_resource_name_obfuscated} during layout: running second layout pass
+01-30 16:12:39.084 11288 11288 W View    : requestLayout() improperly called by android.widget.LinearLayout{84ea4ac V.E...... ......ID 106,0-974,106 #7f0b0390 app:id/0_resource_name_obfuscated} during layout: running second layout pass
+01-30 16:12:39.084 11288 11288 W View    : requestLayout() improperly called by com.google.android.libraries.inputmethod.widgets.SoftKeyView{8b0b575 VFE...C.. ......ID 974,0-1075,106 #7f0b04ed app:id/key_pos_header_power_key} during layout: running second layout pass
+01-30 16:12:39.084 11288 11288 W View    : requestLayout() improperly called by com.google.android.libraries.inputmethod.widgets.ShrinkableFrameView{805190a V.E...... ......I. 0,0-0,0 #7f0b05bb app:id/0_resource_name_obfuscated} during layout: running second layout pass
+01-30 16:12:39.084 11288 11288 W View    : requestLayout() improperly called by com.google.android.libraries.inputmethod.widgets.KeyboardHolder{f88e57b V.E...... ......ID 0,0-1080,804 #7f0b05e8 app:id/keyboard_holder} during layout: running second layout pass
+01-30 16:12:39.084 11288 11288 W View    : requestLayout() improperly called by com.google.android.libraries.inputmethod.keyboard.impl.KeyboardViewHolder{b575f98 V.E...... ......ID 0,0-1080,106 #7f0b05e7 app:id/keyboard_header_view_holder} during layout: running second layout pass
+01-30 16:12:39.084 11288 11288 W View    : requestLayout() improperly called by com.google.android.libraries.inputmethod.keyboard.impl.KeyboardViewHolder{ae433f1 V.E...... ......ID 0,106-1080,804 #7f0b05be app:id/0_resource_name_obfuscated} during layout: running second layout pass
+01-30 16:12:39.084 11288 11288 W View    : requestLayout() improperly called by android.widget.LinearLayout{863bbd6 V.E...... ......ID 0,0-1080,804} during layout: running second layout pass
+01-30 16:12:39.084 11288 11288 W View    : requestLayout() improperly called by android.widget.FrameLayout{3365e57 V.E...... ......ID 0,1341-1080,2145 #7f0b05ba app:id/0_resource_name_obfuscated} during layout: running second layout pass
+01-30 16:12:39.086 11288 11288 I KeyboardModeUtils: KeyboardModeUtils.getKeyboardBottomOffset():435 inch: 0.000000 ydpi: 393.614990 adjustKeyboardBottomByDisplaySize: false currentDensityDpi: 384 defaultDensityDpi: 384 keyboardBottomToScreenPx: 0 keyboardBottomToNavBarPx: -115 navBarHeight: 115
+01-30 16:12:39.086 11288 11288 I BaseKeyboardSizeHelper: BaseKeyboardSizeHelper.calculateMaxKeyboardBodyHeight():73 leave 257 height for app when ime window height:2145, header height:106 and isFullscreenMode:false, so the max keyboard body height is:1782
+01-30 16:12:39.087 11288 11288 I BaseKeyboardSizeHelper: BaseKeyboardSizeHelper.calculateMaxKeyboardBodyHeight():73 leave 257 height for app when ime window height:2145, header height:106 and isFullscreenMode:false, so the max keyboard body height is:1782
+01-30 16:12:39.091 11288 11288 I ScaleBitmapDrawable: ScaleBitmapDrawable.draw():217 drawable:#d2edd44, drawingMatrix:[3.61204, 0.0, 0.0][0.0, 3.61204, -1038.0][0.0, 0.0, 1.0]
+01-30 16:12:39.091 11288 11288 I ScaleBitmapDrawable: ScaleBitmapDrawable.draw():217 drawable:#af71e2d, drawingMatrix:[1.803005, 0.0, 0.0][0.0, 1.803005, -1035.0][0.0, 0.0, 1.0]
+01-30 16:12:39.102 11288 11722 I SP      : Sync for gboard-small-speech-packs succeeded in 45 ms: no changes
+01-30 16:12:39.103 11288 11722 I SP      : GC for 'gboard-small-speech-packs' (10) with ttl of 0 ms took 1 ms (0/1/0)
+01-30 16:12:39.104 11288 12038 I SpeechPackManager: SpeechPackManager$4.onSuccess():495 updatePackSetCacheAsync() : Updated the PackSet cache
+01-30 16:12:39.133 11288 11288 I GoogleInputMethodService: GoogleInputMethodService$1.onKeyboardViewShown():323 onKeyboardViewShown: keyboardType=prime, keyboardViewType=HEADER keyboardView=com.google.android.libraries.inputmethod.widgets.SoftKeyboardView{fb5fee5 V.E...... ........ 0,0-1080,106}
+01-30 16:12:39.133 11288 11288 I BaseKeyboardSizeHelper: BaseKeyboardSizeHelper.calculateMaxKeyboardBodyHeight():73 leave 257 height for app when ime window height:2145, header height:106 and isFullscreenMode:false, so the max keyboard body height is:1782
+01-30 16:12:39.134 11288 11288 I GoogleInputMethodService: GoogleInputMethodService$1.onKeyboardViewShown():323 onKeyboardViewShown: keyboardType=prime, keyboardViewType=BODY keyboardView=com.google.android.libraries.inputmethod.widgets.SoftKeyboardView{42701b3 V.E...... ........ 0,0-1080,698}
+01-30 16:12:39.134 11288 11288 I BaseKeyboardSizeHelper: BaseKeyboardSizeHelper.calculateMaxKeyboardBodyHeight():73 leave 257 height for app when ime window height:2145, header height:106 and isFullscreenMode:false, so the max keyboard body height is:1782
+01-30 16:12:39.134  9123  9156 I WindowManager: SURFACE show Surface(name=InputMethod)/@0xd384951 on display:0
+01-30 16:12:39.134 11288 11288 I GlobeKeyExtension: GlobeKeyExtension$1.onKeyboardViewShown():72 maybeDisableLanguageSwitchKeyPref when the keyboard is shown
+01-30 16:12:39.134 11288 11288 I GlobeKeyExtension: GlobeKeyExtension.maybeDisableLanguageSwitchKeyPref():200 maybeDisableLanguageSwitchKeyPref hasGlobeKeyBeenDisabled: false, shouldDisableLanguageSwitchKey: false
+01-30 16:12:39.134 11288 11288 I NewLanguagePromptExtension: NewLanguagePromptExtension$1.onKeyboardViewShown():88 Not show new language banner: not prime keyboard, or the extension not activated.
+01-30 16:12:39.136 11288 11288 I KeyboardModeUtils: KeyboardModeUtils.getKeyboardBottomOffset():435 inch: 0.000000 ydpi: 393.614990 adjustKeyboardBottomByDisplaySize: false currentDensityDpi: 384 defaultDensityDpi: 384 keyboardBottomToScreenPx: 0 keyboardBottomToNavBarPx: -115 navBarHeight: 115
+01-30 16:12:39.137 11288 11288 I BaseKeyboardSizeHelper: BaseKeyboardSizeHelper.calculateMaxKeyboardBodyHeight():73 leave 257 height for app when ime window height:2145, header height:106 and isFullscreenMode:false, so the max keyboard body height is:1782
+01-30 16:12:39.137 11288 11288 I BaseKeyboardSizeHelper: BaseKeyboardSizeHelper.calculateMaxKeyboardBodyHeight():73 leave 257 height for app when ime window height:2145, header height:106 and isFullscreenMode:false, so the max keyboard body height is:1782
+01-30 16:12:39.137 11288 11288 I KeyboardModeUtils: KeyboardModeUtils.getKeyboardBottomOffset():435 inch: 0.000000 ydpi: 393.614990 adjustKeyboardBottomByDisplaySize: false currentDensityDpi: 384 defaultDensityDpi: 384 keyboardBottomToScreenPx: 0 keyboardBottomToNavBarPx: -115 navBarHeight: 115
+01-30 16:12:39.137 11288 11288 I BaseKeyboardSizeHelper: BaseKeyboardSizeHelper.calculateMaxKeyboardBodyHeight():73 leave 257 height for app when ime window height:2145, header height:106 and isFullscreenMode:false, so the max keyboard body height is:1782
+01-30 16:12:39.137 11288 11288 I BaseKeyboardSizeHelper: BaseKeyboardSizeHelper.calculateMaxKeyboardBodyHeight():73 leave 257 height for app when ime window height:2145, header height:106 and isFullscreenMode:false, so the max keyboard body height is:1782
+01-30 16:12:39.137 11288 11288 I AndroidIME: KeyboardViewManager.saveKeyboardBottomGap():296 windowHeight: 2145 windowHeightInInches: 5.585938
+01-30 16:12:39.137 11288 11288 I AndroidIME: keyboardHolderHeight: 804 navigationHeight: 115
+01-30 16:12:39.137 11288 11288 I AndroidIME: getKeyboardBodyViewHolderPaddingBottom(): 0
+01-30 16:12:39.137 11288 11288 I AndroidIME: keyboardBottomGap: 115 bodyViewHolderBottomPadding: 0
+01-30 16:12:39.137 11288 11288 I AndroidIME: decorViewStableInsetBottom: 115 updated: false
+01-30 16:12:39.213  9123  9367 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+01-30 16:12:39.342  1464  2240 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+01-30 16:12:39.362 11288 11288 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdownVoiceInternal():148 shutdownVoiceInternal()
+01-30 16:12:39.481 10473 10694 W CursorWindow: Window is full: requested allocation 80 bytes, free space 32 bytes, window size 2097152 bytes
+01-30 16:12:39.642  1040  1040 I QTI PowerHAL: Power setBoost: 0, duration: 0
+01-30 16:12:39.643  1040  1040 I QTI PowerHAL: Power setBoost: 0, duration: 0
+01-30 16:12:39.643  1089  1089 D vendor.qti.vibrator: QTI Vibrator reporting capabilities: 3
+01-30 16:12:39.644  1089  1089 D vendor.qti.vibrator: QTI Vibrator off
+01-30 16:12:39.648  1054  1054 W MotoVibratorService: motvibrator on command performShortWave  waveId : 3
+01-30 16:12:39.649  1054  1054 D motorola.hardware.vibrator@1.0-service: motvibrator led device get wave index:3
+01-30 16:12:39.658  1040  1040 I QTI PowerHAL: Power setBoost: 0, duration: 0
+01-30 16:12:39.661  1054  1054 W MotoVibratorService: motvibrator on command retc : 0
+01-30 16:12:39.674  1040  1040 I QTI PowerHAL: Power setBoost: 0, duration: 0
+01-30 16:12:39.825  1040  1040 I chatty  : uid=1000(system) android.hardwar identical 3 lines
+01-30 16:12:39.827  1040  1040 I QTI PowerHAL: Power setBoost: 0, duration: 0
+01-30 16:12:39.827  1089  1089 D vendor.qti.vibrator: QTI Vibrator reporting capabilities: 3
+01-30 16:12:39.827  1089  1089 D vendor.qti.vibrator: QTI Vibrator off
+01-30 16:12:39.832  1054  1054 W MotoVibratorService: motvibrator on command performShortWave  waveId : 3
+01-30 16:12:39.833  1054  1054 D motorola.hardware.vibrator@1.0-service: motvibrator led device get wave index:3
+01-30 16:12:39.845  1054  1054 W MotoVibratorService: motvibrator on command retc : 0
+01-30 16:12:39.866  1040  1040 I QTI PowerHAL: Power setBoost: 0, duration: 0
+01-30 16:12:39.916  1040  1040 I chatty  : uid=1000(system) android.hardwar identical 4 lines
+01-30 16:12:39.924  1040  1040 I QTI PowerHAL: Power setBoost: 0, duration: 0
+01-30 16:12:40.170 10473 10694 W CursorWindow: Window is full: requested allocation 77 bytes, free space 68 bytes, window size 2097152 bytes
+01-30 16:12:40.604 10217 11828 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+01-30 16:12:40.618 10473 10694 W CursorWindow: Window is full: requested allocation 60 bytes, free space 42 bytes, window size 2097152 bytes
+01-30 16:12:40.672  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] wait_event:Wait done with Cmd 33
+01-30 16:12:40.673  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] do_listen_events: Rcvd valid Netlink Cmd 0 Err 0
+01-30 16:12:40.986 10473 10694 W CursorWindow: Window is full: requested allocation 60 bytes, free space 41 bytes, window size 2097152 bytes
+01-30 16:12:41.369 10473 10694 W CursorWindow: Window is full: requested allocation 63 bytes, free space 32 bytes, window size 2097152 bytes
+01-30 16:12:41.498  9710  9710 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+01-30 16:12:41.499  9791  9791 D DeviceStatisticsService: chargerType=1 batteryLevel=12 totalBatteryCapacity=4806600
+01-30 16:12:41.499  9791  9791 D DeviceInfoHidlClient: isPowerInfoNeverSent()=true
+01-30 16:12:41.499  9791  9791 D DeviceInfoHidlClient: getPowerInfoSupportStatus()=-1
+01-30 16:12:41.744 10473 10490 I ogle.android.a: Background concurrent copying GC freed 443160(21MB) AllocSpace objects, 0(0B) LOS objects, 24% free, 72MB/96MB, paused 53us total 150.503ms
+01-30 16:12:41.766 10473 10694 W CursorWindow: Window is full: requested allocation 80 bytes, free space 32 bytes, window size 2097152 bytes
+01-30 16:12:42.238  9123  9367 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+01-30 16:12:42.453 10473 10694 W CursorWindow: Window is full: requested allocation 77 bytes, free space 68 bytes, window size 2097152 bytes
+01-30 16:12:42.580  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] wait_event:Wait done with Cmd 34
+01-30 16:12:42.580  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] do_listen_events: Rcvd valid Netlink Cmd 34 Err 0
+01-30 16:12:42.582  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan]  -- associated
+01-30 16:12:42.582  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] 
+01-30 16:12:42.582  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] print_bss_handler: Report beacon TSF 5195389240 as it greater than probe TSF 5193587194
+01-30 16:12:42.582  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] BSS b4:89:01:c1:98:4c LOWI_PHY_MODE_11NG_HT20(5), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+01-30 16:12:42.582  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] BSS b4:89:01:c1:98:4c FREQ: 2412, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = BR 
+01-30 16:12:42.582  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] BSS b4:89:01:c1:98:4c (wlan0) ASSO: YES AddInfo: 0x1, TSF 0, 01:26:35.389, RSSI: -94, CPL: 127, AGE: 0,  SSID REDEcomVIRUS, TSFDelta: 0x1865cc07, TXRate: 0
+01-30 16:12:42.582  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] 
+01-30 16:12:42.582  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] print_bss_handler: Report Probe TSF 5194316605 as it greater than Beacon TSF 0
+01-30 16:12:42.582  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] BSS 08:2f:e9:27:24:14 LOWI_PHY_MODE_11NG_HT20(5), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+01-30 16:12:42.582  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] BSS 08:2f:e9:27:24:14 FREQ: 2452, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = BR 
+01-30 16:12:42.582  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] BSS 08:2f:e9:27:24:14 (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 01:26:34.316, RSSI: -140, CPL: 127, AGE: 1124,  SSID ADRIANAPENZUTI, TSFDelta: 0x1896cbfc, TXRate: 0
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] 
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] print_bss_handler: Report Probe TSF 5195098255 as it greater than Beacon TSF 4862108002
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] BSS b4:89:01:c1:98:50 LOWI_PHY_MODE_11AC_VHT80(10), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1531): ESS Privacy ShortPreamble SpectrumMgmt ShortSlotTime
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] BSS b4:89:01:c1:98:50 FREQ: 5745, cFreq1[40:80:160] = [5755:5775:0] cFreq2 = 0 Country Code = BR 
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] BSS b4:89:01:c1:98:50 (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 01:26:35.098, RSSI: -120, CPL: 127, AGE: 344,  SSID REDEcomVIRUS_5.8Ghz, TSFDelta: 0x184ee212, TXRate: 0
+01-30 16:12:42.583  9123 10547 D WifiNl80211Manager: Scan result ready event
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] 
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] print_bss_handler: Report Probe TSF 5195095710 as it greater than Beacon TSF 5072997505
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] BSS 08:2f:e9:27:24:18 LOWI_PHY_MODE_11AC_VHT80(10), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1531): ESS Privacy ShortPreamble SpectrumMgmt ShortSlotTime
+01-30 16:12:42.583  9123 10547 D WifiNative: Scan result ready event
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] BSS 08:2f:e9:27:24:18 FREQ: 5745, cFreq1[40:80:160] = [5755:5775:0] cFreq2 = 0 Country Code = BR 
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] BSS 08:2f:e9:27:24:18 (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 01:26:35.095, RSSI: -150, CPL: 127, AGE: 347,  SSID ADRIANAPENZUTI_5.8Ghz, TSFDelta: 0x186d4c9a, TXRate: 0
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] 
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] print_bss_handler: Report Probe TSF 5193591135 as it greater than Beacon TSF 0
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] BSS 54:f6:e2:5e:08:f0 LOWI_PHY_MODE_11NG_HT20(5), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] BSS 54:f6:e2:5e:08:f0 FREQ: 2412, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US 
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] BSS 54:f6:e2:5e:08:f0 (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 01:26:33.591, RSSI: -126, CPL: 127, AGE: 1850,  SSID NAOpedeAsenha, TSFDelta: 0x190c94be, TXRate: 0
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] 
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] print_bss_handler: Report Probe TSF 5193579985 as it greater than Beacon TSF 0
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] BSS e0:1c:fc:97:8a:1e LOWI_PHY_MODE_11NG_HT40(7), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x0411): ESS Privacy ShortSlotTime
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] BSS e0:1c:fc:97:8a:1e FREQ: 2412, cFreq1[40:80:160] = [2422:0:0] cFreq2 = 0 Country Code =    
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] BSS e0:1c:fc:97:8a:1e (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 01:26:33.579, RSSI: -158, CPL: 127, AGE: 1860,  SSID Hollywood Azul, TSFDelta: 0x156132fb, TXRate: 0
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] 
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] print_bss_handler: Report beacon TSF 5194451986 as it greater than probe TSF 5194449283
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] BSS 68:d4:0c:7c:08:8f LOWI_PHY_MODE_11NG_HT20(5), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x0c11): ESS Privacy ShortSlotTime APSD
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] BSS 68:d4:0c:7c:08:8f FREQ: 2462, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = BR 
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] BSS 68:d4:0c:7c:08:8f (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 01:26:34.451, RSSI: -170, CPL: 127, AGE: 990,  SSID VIVOFIBRA-0881, TSFDelta: 0x186406f1, TXRate: 0
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] 
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] print_bss_handler: Report Probe TSF 5195097285 as it greater than Beacon TSF 0
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] BSS 54:f6:e2:5e:08:f4 LOWI_PHY_MODE_11AC_VHT80(10), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1531): ESS Privacy ShortPreamble SpectrumMgmt ShortSlotTime
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] BSS 54:f6:e2:5e:08:f4 FREQ: 5745, cFreq1[40:80:160] = [5755:5775:0] cFreq2 = 0 Country Code = US 
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] BSS 54:f6:e2:5e:08:f4 (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 01:26:35.097, RSSI: -174, CPL: 127, AGE: 344,  SSID NAOpedeAsenha_5.8Ghz, TSFDelta: 0x18c6aa76, TXRate: 0
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWIDiagLog] Log: lowiMeasResult->request: invalid null argument
+01-30 16:12:42.583  1534 11610 I LOWI-9.0.0.66: [LOWI-Scan] lowi_close_record:Scan done in 5158936ms, 8 APs in scan results
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] WipsScanUsingNL: passive scan cached 0, took 122058 ms, err 0
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] lowi_proc_req_passive_scan_with_live_meas - No WLAN Frames to be parsed
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWIScanResultReceiver] Send scan meas to listener
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWIScanResultReceiver] Enter passive listening mode
+01-30 16:12:42.584  1534 11610 D LOWI-9.0.0.66: [LOWIWifiDriverInterface] getMeasurements - Passive listening mode
+01-30 16:12:42.584  1534 11610 D LOWI-9.0.0.66: [LOWI-Scan] WipsScanUsingNL:wait -1 sec for netlink message
+01-30 16:12:42.586  1534  1570 D LOWI-9.0.0.66: [LOWIEventReceiver] handleEvent:FROM:NA, TO:NA, REQ:NA, IREQ:NA, REQ_ID:0, RESP:NA, INFO:NA
+01-30 16:12:42.586  1534  1570 D LOWI-9.0.0.66: [LOWIBackgroundScanMgr] isRspForBgScanMgr: evt(LOWI_NO_EVT) - not handled
+01-30 16:12:42.586  1534  1570 D LOWI-9.0.0.66: [LOWIScheduler] manageMsg: NULL results or NULL request in results
+01-30 16:12:42.586  1534  1570 D LOWI-9.0.0.66: [LOWIController] Measurements received
+01-30 16:12:42.586  1534  1570 D LOWI-9.0.0.66: [LOWICacheManager] putInCache:Num of Meas to add: 8
+01-30 16:12:42.586  1534  1570 D LOWI-9.0.0.66: [LOWIController] processMeasurementResults: No current Request. Cache measurements
+01-30 16:12:42.586  1534  1570 D LOWI-9.0.0.66: [LOWIController] sendAsyncScanResponse: Request FreeWifiScanObserver_0 is from a different client.
+01-30 16:12:42.586  1534  1570 D LOWI-9.0.0.66: [LOWIController] generateResponse: Type (ASYNC_DISCOVERY_SCAN_RESULTS) ScanStatus (1) request FreeWifiScanObserver_0
+01-30 16:12:42.586  1534  1570 D LOWI-9.0.0.66: [LOWIEventDispatcher] sendResponse - originator = FreeWifiScanObserver
+01-30 16:12:42.586  1534  1570 D LOWI-9.0.0.66: [LOWIUtils] injectScanMeasurements - num of APs = 8
+01-30 16:12:42.586  1534  1570 I LOWI-9.0.0.66: [LOWIUtils] responseToOutPostcard - TO: FreeWifiScanObserver, FROM:   LOWI-SERVER, RESP:  LOWI_ASYNC_DISCOVERY_SCAN_RESULTS
+01-30 16:12:42.586  1534  1570 D LOWI-9.0.0.66: [LOWIControllerExtn] sendLOWILpDiscoveryScanResponse: Not a discovery scan response
+01-30 16:12:42.597  1487  1519 V QCALOG  : [MessageQ] wait result 1
+01-30 16:12:42.597  1487  1519 V QCALOG  : [MessageQueueClientInfo] LOWI-SERVER: read
+01-30 16:12:42.597  1487  1519 V QCALOG  : [MessageQueueClientInfo] just read 4 bytes
+01-30 16:12:42.597  1487  1519 V QCALOG  : [MessageQ] wait result 1
+01-30 16:12:42.597  1487  1519 V QCALOG  : [MessageQueueClientInfo] LOWI-SERVER: read
+01-30 16:12:42.597  1487  1519 V QCALOG  : [MessageQueueClientInfo] just read 8103 bytes
+01-30 16:12:42.597  1487  1519 V QCALOG  : [MessageQueueClientInfo] card length 8103 + 4 bytes, current size 8107 bytes
+01-30 16:12:42.597  1487  1519 V QCALOG  : [MessageQ] lookupAndDeliver delivering message to client FreeWifiScanObserver 
+01-30 16:12:42.597  1487  1519 V QCALOG  : [MessageQ] wait result 1
+01-30 16:12:42.597  1487  1519 V QCALOG  : [MessageQueueClientInfo] IPCMessagingProxy-1034: write
+01-30 16:12:42.597  1487  1519 D QCALOG  : [MessageQueueClientInfo] write to [IPCMessagingProxy-1034], 8107 bytes finished, 0 bytes left
+01-30 16:12:42.619 10217 12178 I WifiScanner: onFullResults
+01-30 16:12:42.648  9123  9367 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+01-30 16:12:42.670  9123  9367 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+01-30 16:12:42.897 10473 10694 W CursorWindow: Window is full: requested allocation 60 bytes, free space 42 bytes, window size 2097152 bytes
+01-30 16:12:43.275 10473 10694 W CursorWindow: Window is full: requested allocation 60 bytes, free space 41 bytes, window size 2097152 bytes
+01-30 16:12:43.651 10473 10694 W CursorWindow: Window is full: requested allocation 63 bytes, free space 32 bytes, window size 2097152 bytes

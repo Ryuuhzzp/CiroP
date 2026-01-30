@@ -1,0 +1,32 @@
+01-30 16:12:17.511  9123 11265 I ActivityManager: Force stopping celestemeown.app appid=10393 user=0: from pid 25668
+01-30 16:12:17.524 10611 10611 D HCENfc_RegisteredServicesCache: onReceive() - pkg: celestemeown.app
+01-30 16:12:17.690  9123 11487 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=celestemeown.app/.android.MainActivity} from uid 2000
+01-30 16:12:17.775  9123  9167 I ActivityManager: Start proc 25682:celestemeown.app/u0a393 for pre-top-activity {celestemeown.app/celestemeown.app.android.MainActivity}
+01-30 16:12:17.852  9123  9157 I WindowManager: SURFACE show Surface(name=Splash Screen celestemeown.app)/@0x4c8de74 on display:0
+01-30 16:12:18.191  9123 11265 V WindowManager: Orientation start waiting for draw, mDrawState=DRAW_PENDING in Window{20396f1 u0 Splash Screen celestemeown.app}, surfaceController Surface(name=Splash Screen celestemeown.app)/@0x4c8de74
+01-30 16:12:18.307  9123  9157 I WindowManager: SURFACE SIZE set 2340x1080: Surface(name=Splash Screen celestemeown.app)/@0x4c8de74 on display:0
+01-30 16:12:18.313  9123  9157 V WindowManager: Orientation start waiting for draw, mDrawState=DRAW_PENDING in Window{20396f1 u0 Splash Screen celestemeown.app}, surfaceController Surface(name=Splash Screen celestemeown.app)/@0x4c8de74
+01-30 16:12:18.539  9123 11265 V WindowManager: Changing focus from null to Window{b875c40 u0 celestemeown.app/celestemeown.app.android.MainActivity} displayId=0
+01-30 16:12:18.559  9123  9156 V WindowManager: Orientation start waiting for draw, mDrawState=DRAW_PENDING in Window{20396f1 u0 Splash Screen celestemeown.app}, surfaceController Surface(name=Splash Screen celestemeown.app)/@0x4c8de74
+01-30 16:12:18.560  9123  9156 V WindowManager: Orientation start waiting for draw, mDrawState=DRAW_PENDING in Window{b875c40 u0 celestemeown.app/celestemeown.app.android.MainActivity}, surfaceController Surface(name=celestemeown.app/celestemeown.app.android.MainActivity)/@0x2196ca
+01-30 16:12:18.716  9123  9157 I LaunchCheckinHandler: Displayed celestemeown.app/.android.MainActivity,cp,ca,981
+01-30 16:12:18.717  9123  9157 I WindowManager: SURFACE show Surface(name=celestemeown.app/celestemeown.app.android.MainActivity)/@0x2196ca on display:0
+01-30 16:12:18.774  9123  9165 D ArtManagerInternalImpl: /data/misc/iorapd/celestemeown.app/1/celestemeown.app.android.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+01-30 16:12:18.776  9123  9165 I ActivityTaskManager: Displayed celestemeown.app/.android.MainActivity: +1s26ms
+01-30 16:12:19.264  9123 11265 V WindowManager: Orientation start waiting for draw, mDrawState=DRAW_PENDING in Window{b875c40 u0 celestemeown.app/celestemeown.app.android.MainActivity}, surfaceController Surface(name=celestemeown.app/celestemeown.app.android.MainActivity)/@0x2196ca
+01-30 16:12:19.379 11288 11288 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1349 onStartInput(EditorInfo{EditorInfo{packageName=celestemeown.app, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+01-30 16:12:21.174  9123  9478 V WindowManager: Changing focus from Window{b875c40 u0 celestemeown.app/celestemeown.app.android.MainActivity} to null displayId=0
+01-30 16:12:23.022  9123  9478 V WindowManager: Changing focus from null to Window{b875c40 u0 celestemeown.app/celestemeown.app.android.MainActivity} displayId=0
+01-30 16:12:23.113  9123  9157 I WindowManager: SURFACE show Surface(name=celestemeown.app/celestemeown.app.android.MainActivity)/@0x808ea11 on display:0
+01-30 16:12:23.243  9123  9165 D ArtManagerInternalImpl: /data/misc/iorapd/celestemeown.app/1/celestemeown.app.android.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+01-30 16:12:23.277 11288 11288 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1349 onStartInput(EditorInfo{EditorInfo{packageName=celestemeown.app, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+01-30 16:12:24.129  9123  9194 V WindowManager: Changing focus from Window{b875c40 u0 celestemeown.app/celestemeown.app.android.MainActivity} to null displayId=0
+01-30 16:12:35.911  9123 10974 V WindowManager: Changing focus from null to Window{b875c40 u0 celestemeown.app/celestemeown.app.android.MainActivity} displayId=0
+01-30 16:12:36.003  9123  9157 I WindowManager: SURFACE show Surface(name=celestemeown.app/celestemeown.app.android.MainActivity)/@0xf503dfe on display:0
+01-30 16:12:36.060  9123  9165 D ArtManagerInternalImpl: /data/misc/iorapd/celestemeown.app/1/celestemeown.app.android.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+01-30 16:12:36.186 11288 11288 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1349 onStartInput(EditorInfo{EditorInfo{packageName=celestemeown.app, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+01-30 16:12:37.225  9123 10974 V WindowManager: Changing focus from Window{b875c40 u0 celestemeown.app/celestemeown.app.android.MainActivity} to null displayId=0
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWIScanResultReceiver] Send scan meas to listener
+01-30 16:12:42.583  1534 11610 D LOWI-9.0.0.66: [LOWIScanResultReceiver] Enter passive listening mode
+01-30 16:12:42.586  1534  1570 D LOWI-9.0.0.66: [LOWIController] sendAsyncScanResponse: Request FreeWifiScanObserver_0 is from a different client.
+01-30 16:12:42.586  1534  1570 D LOWI-9.0.0.66: [LOWIControllerExtn] sendLOWILpDiscoveryScanResponse: Not a discovery scan response

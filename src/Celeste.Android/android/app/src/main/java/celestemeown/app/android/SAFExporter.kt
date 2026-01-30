@@ -1,4 +1,4 @@
-package com.imshisui.celeste
+package celestemeown.app.android
 
 import android.content.Context
 import android.content.Intent

@@ -9,15 +9,13 @@ import android.content.Context
 import android.app.DownloadManager
 import android.util.Log
 import java.io.File
-import io.flutter.embedding.android.FlutterActivity
-import io.flutter.embedding.engine.FlutterEngine
-import io.flutter.plugin.common.MethodChannel
+import androidx.appcompat.app.AppCompatActivity
 
 /**
- * MainActivity: Launcher activity que hospeda Flutter UI.
- * Também responsável por orquestração do fluxo (instalação de assets, export, etc).
+ * MainActivity: Launcher activity (temporarily AppCompatActivity for compilation).
+ * TODO: Convert back to FlutterActivity once Flutter Add-to-App is configured.
  */
-class MainActivity : FlutterActivity() {
+class MainActivity : AppCompatActivity() {
 
     companion object {
         private const val CHANNEL = "celestemeown.app/channel"
@@ -42,58 +40,8 @@ class MainActivity : FlutterActivity() {
         // MethodChannel será configurado em configureFlutterEngine
     }
 
-    override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
-        super.configureFlutterEngine(flutterEngine)
-
-        setupMethodChannel(flutterEngine)
-    }
-
-    private fun setupMethodChannel(flutterEngine: FlutterEngine) {
-        MethodChannel(flutterEngine.dartExecutor.binaryMessenger, CHANNEL).setMethodCallHandler { call, result ->
-            when (call.method) {
-                "getStatus" -> {
-                    result.success(getAssetStatus())
-                }
-                "installAssets" -> {
-                    result.success(installAssets())
-                }
-                "extractAssets" -> {
-                    result.success(extractAssets())
-                }
-                "startGame" -> {
-                    startGame()
-                    result.success(true)
-                }
-                "setFpsEnabled" -> {
-                    val enabled = call.argument<Boolean>("enabled") ?: false
-                    setFpsEnabled(enabled)
-                    result.success(true)
-                }
-                "setVerboseLogs" -> {
-                    val enabled = call.argument<Boolean>("enabled") ?: false
-                    setVerboseLogs(enabled)
-                    result.success(true)
-                }
-                "getLogs" -> {
-                    result.success(getLogs())
-                }
-                "exportLogs" -> {
-                    exportLogs()
-                    result.success(true)
-                }
-                "exportScreenshot" -> {
-                    val filePath = call.argument<String>("filePath") ?: ""
-                    exportScreenshot(filePath)
-                    result.success(true)
-                }
-                else -> {
-                    result.notImplemented()
-                }
-            }
-        }
-
-        Log.i("MainActivity", "MethodChannel configurado: $CHANNEL")
-    }
+    // Flutter engine integration disabled for now (no Flutter module configured).
+    // MethodChannel requires Flutter to be configured. Keep helper methods accessible for future integration.
 
     private fun applyFullscreenConfig() {
         requestedOrientation = android.content.pm.ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE

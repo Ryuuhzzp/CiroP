@@ -56,7 +56,7 @@ class AssetInstaller(private val context: Context) {
     fun downloadAssets(): Long {
         try {
             val downloadManager = context.getSystemService(Context.DOWNLOAD_SERVICE) as DownloadManager
-            val request = DownloadManager.Request(URI(CONTENT_ZIP_URL).toURL().toURI())
+            val request = DownloadManager.Request(android.net.Uri.parse(CONTENT_ZIP_URL))
             
             request.setTitle("Celeste Assets")
             request.setDescription("Baixando dados do jogo...")

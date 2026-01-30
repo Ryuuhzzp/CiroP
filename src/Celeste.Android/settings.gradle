@@ -35,20 +35,24 @@ project(':app').projectDir = new File(rootDir, 'android/app')
 def flutterModulePath = '../../flutter_ui'
 def flutterSdk = System.env.FLUTTER_HOME ?: System.env.FlutterSdkPath
 
-if (flutterSdk == null) {
-    println "⚠️  FLUTTER_HOME não definido. Flutter integration será desabilitada."
-    println "   Configure com: export FLUTTER_HOME=/path/to/flutter"
+if (!new File(flutterModulePath).exists()) {
+    println "⚠️  Flutter module não encontrado em $flutterModulePath; skipping Flutter integration"
 } else {
-    println "✓ Flutter SDK encontrado em: $flutterSdk"
-    assert new File(flutterModulePath).exists() : "Flutter module não encontrado em $flutterModulePath"
-    
-    // Integrar Flutter como módulo Add-to-App
-    setBinding(new Binding([gradle: this]))
-    def ideConfig = new File(new File(flutterSdk).parentFile, '.idea/projectConfigurations.gradle')
-    if (ideConfig.exists()) {
-        evaluate(ideConfig)
+    include ':flutter'
+    project(':flutter').projectDir = new File(rootDir, flutterModulePath)
+
+    if (flutterSdk == null) {
+        println "⚠️  FLUTTER_HOME não definido. Some IDE integration steps may be skipped."
     } else {
-        println "⚠️  arquivo ${ideConfig} não encontrado; pulando integração do .idea."
+        println "✓ Flutter SDK encontrado em: $flutterSdk"
+        // Try optional IDEA integration
+        setBinding(new Binding([gradle: this]))
+        def ideConfig = new File(new File(flutterSdk).parentFile, '.idea/projectConfigurations.gradle')
+        if (ideConfig.exists()) {
+            evaluate(ideConfig)
+        } else {
+            println "⚠️  arquivo ${ideConfig} não encontrado; pulando integração do .idea."
+        }
     }
 }
-git rm --cached -r .vscode-remote
+// Removed stray git command that broke Gradle evaluation
