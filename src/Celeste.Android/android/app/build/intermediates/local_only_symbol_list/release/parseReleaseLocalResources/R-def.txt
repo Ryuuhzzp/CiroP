@@ -1,0 +1,15 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_launcher_foreground
+id btn_export_logs
+id btn_extract
+id btn_install
+id btn_start
+id progress
+id status_text
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+string app_name
+style AppTheme
+style LaunchTheme

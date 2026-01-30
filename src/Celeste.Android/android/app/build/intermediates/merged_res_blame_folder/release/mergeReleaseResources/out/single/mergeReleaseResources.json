@@ -1,10 +1,38 @@
 [
     {
+        "merged": "celestemeown.app-release-28:/mipmap-anydpi-v26_ic_launcher_foreground.png.flat",
+        "source": "celestemeown.app-main-29:/mipmap-anydpi-v26/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "celestemeown.app-release-28:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "celestemeown.app-main-29:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "celestemeown.app-release-28:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "celestemeown.app-main-29:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
         "merged": "celestemeown.app-release-28:/drawable_ic_launcher_foreground.xml.flat",
         "source": "celestemeown.app-main-29:/drawable/ic_launcher_foreground.xml"
     },
     {
+        "merged": "celestemeown.app-release-28:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "celestemeown.app-main-29:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "celestemeown.app-release-28:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "celestemeown.app-main-29:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "celestemeown.app-release-28:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "celestemeown.app-main-29:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
         "merged": "celestemeown.app-release-28:/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "celestemeown.app-main-29:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "celestemeown.app-release-28:/layout_activity_main.xml.flat",
+        "source": "celestemeown.app-main-29:/layout/activity_main.xml"
     }
 ]

@@ -1,5 +1,7 @@
 package celestemeown.app.android
 
+import celestemeown.app.R
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowInsets
 import android.view.WindowInsetsController
@@ -8,8 +10,17 @@ import android.content.IntentFilter
 import android.content.Context
 import android.app.DownloadManager
 import android.util.Log
+import celestemeown.app.android.LogSystem
 import java.io.File
-import androidx.appcompat.app.AppCompatActivity
+import java.io.FileInputStream
+import java.io.FileOutputStream
+import java.util.zip.ZipEntry
+import java.util.zip.ZipOutputStream
+import android.view.View
+import android.widget.Button
+import android.widget.ProgressBar
+import android.widget.TextView
+import com.google.android.material.snackbar.Snackbar
 
 /**
  * MainActivity: Launcher activity (temporarily AppCompatActivity for compilation).
@@ -28,16 +39,68 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+            // Inicializar LogSystem
+            LogSystem.init(this)
 
-        // Inicializar AssetInstaller e SAFExporter
-        assetInstaller = AssetInstaller(this)
-        safExporter = SAFExporter(this)
-        safExporter.initialize(this)
+            // Inicializar AssetInstaller e SAFExporter
+            assetInstaller = AssetInstaller(this)
+            safExporter = SAFExporter(this)
+            safExporter.initialize(this)
 
-        // Aplicar fullscreen + landscape
-        applyFullscreenConfig()
+            // Aplicar fullscreen + landscape
+            applyFullscreenConfig()
 
-        // MethodChannel será configurado em configureFlutterEngine
+            // Set native layout
+            setContentView(R.layout.activity_main)
+
+            // Wire UI
+            val statusText = findViewById<TextView>(R.id.status_text)
+            val installBtn = findViewById<Button>(R.id.btn_install)
+            val extractBtn = findViewById<Button>(R.id.btn_extract)
+            val startBtn = findViewById<Button>(R.id.btn_start)
+            val exportLogsBtn = findViewById<Button>(R.id.btn_export_logs)
+            val progressBar = findViewById<ProgressBar>(R.id.progress)
+
+            fun updateStatus() {
+                statusText.text = when (assetInstaller.getStatus()) {
+                    AssetInstaller.AssetStatus.INSTALLED -> "Assets: Instalados"
+                    AssetInstaller.AssetStatus.READY_TO_EXTRACT -> "Assets: Pronto para extrair"
+                    AssetInstaller.AssetStatus.DOWNLOADING -> "Assets: Baixando..."
+                    AssetInstaller.AssetStatus.EXTRACTING -> "Assets: Extraindo..."
+                    else -> "Assets: Não instalados"
+                }
+            }
+
+            updateStatus()
+
+            installBtn.setOnClickListener {
+                progressBar.visibility = View.VISIBLE
+                val success = installAssets()
+                progressBar.visibility = View.GONE
+                updateStatus()
+                Snackbar.make(it, if (success) "Download iniciado" else "Falha ao iniciar download", Snackbar.LENGTH_SHORT).show()
+            }
+
+            extractBtn.setOnClickListener {
+                progressBar.visibility = View.VISIBLE
+                val ok = extractAssets()
+                progressBar.visibility = View.GONE
+                updateStatus()
+                Snackbar.make(it, if (ok) "Extração completa" else "Erro na extração", Snackbar.LENGTH_SHORT).show()
+            }
+
+            startBtn.setOnClickListener {
+                if (!assetInstaller.areAssetsInstalled()) {
+                    Snackbar.make(it, "Instale os assets antes de iniciar", Snackbar.LENGTH_SHORT).show()
+                } else {
+                    startGame()
+                }
+            }
+
+            exportLogsBtn.setOnClickListener {
+                exportLogs()
+                Snackbar.make(it, "Exportando logs...", Snackbar.LENGTH_SHORT).show()
+            }
     }
 
     // Flutter engine integration disabled for now (no Flutter module configured).
@@ -196,6 +259,8 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    // Native UI used; Flutter engine integration removed for now.
+
     /**
      * SAF: exportLogs() - Exporta logs via Storage Access Framework
      */
@@ -207,29 +272,34 @@ class MainActivity : AppCompatActivity() {
                 return
             }
 
-            val zipFile = File(getExternalFilesDir(null), "celeste_logs.zip")
-            zipFile.deleteOnExit()
-            
-            // Criar ZIP dos logs
-            val files = logsDir.listFiles() ?: emptyArray()
-            if (files.isNotEmpty()) {
-                safExporter.requestExport("celeste_logs_${System.currentTimeMillis()}.zip", zipFile)
-                Log.i("MainActivity", "Logs exportados via SAF")
+            val zipFile = File(getExternalFilesDir(null), "celeste_logs_${System.currentTimeMillis()}.zip")
+            if (zipFile.exists()) zipFile.delete()
+
+            ZipOutputStream(FileOutputStream(zipFile)).use { zos ->
+                val files = logsDir.listFiles() ?: emptyArray()
+                for (f in files) {
+                    val entry = ZipEntry(f.name)
+                    zos.putNextEntry(entry)
+                    FileInputStream(f).use { fis ->
+                        fis.copyTo(zos)
+                    }
+                    zos.closeEntry()
+                }
             }
+
+            safExporter.requestExport(zipFile.name, zipFile)
+            Log.i("MainActivity", "Logs empacotados em: ${zipFile.absolutePath}")
         } catch (e: Exception) {
             Log.e("MainActivity", "Erro ao exportar logs: ${e.message}")
         }
     }
 
-    /**
-     * SAF: exportScreenshot() - Exporta screenshot via Storage Access Framework
-     */
     private fun exportScreenshot(filePath: String) {
         try {
             val file = File(filePath)
             if (file.exists()) {
-                safExporter.requestExport("celeste_screenshot_${System.currentTimeMillis()}.png", file)
-                Log.i("MainActivity", "Screenshot exportado via SAF")
+                safExporter.requestExport(file.name, file)
+                Log.i("MainActivity", "Screenshot exportado: ${file.absolutePath}")
             } else {
                 Log.e("MainActivity", "Screenshot não encontrado: $filePath")
             }
@@ -237,4 +307,7 @@ class MainActivity : AppCompatActivity() {
             Log.e("MainActivity", "Erro ao exportar screenshot: ${e.message}")
         }
     }
+
 }
+
+    
