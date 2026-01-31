@@ -1,0 +1,75 @@
+## 🛠️ Ferramentas Kotlin UI (TOP / Recomendadas)
+
+### ✅ Base obrigatória (UI moderna)
+- **Jetpack Compose** → toolkit moderno, declarativo e poderoso para criar UIs.
+- **Material Design 3 (Material You)** → temas prontos, cores dinâmicas, tipografia e componentes.
+- **Navigation Compose** → gerencia rotas e telas de forma elegante.
+- **ConstraintLayout for Compose** → layouts avançados e responsivos (nível profissional).
+- **Compose Animation APIs** → animações e transições (fade, slide, crossfade, AnimatedVisibility).
+
+---
+
+### 🎨 UI/UX Premium (componentes e experiência)
+- **BottomSheet / ModalBottomSheet** → menus deslizantes elegantes.
+- **PullRefresh / SwipeRefresh (Material/Accompanist)** → “puxar para atualizar”.
+- **Shimmer (Compose)** → skeleton loading premium (carregamento bonito).
+- **Insets / Edge-to-Edge (WindowInsets)** → UI premium com status/nav transparentes.
+- **WindowSizeClass / Adaptive Layouts** → UI adaptável (tablet, fold, landscape).
+
+---
+
+### 🧩 Extensões poderosas para Compose
+- **Accompanist** → pager, permissões, system ui controller e utilitários.
+- **LazyColumn / LazyVerticalGrid** → listas e grades com alta performance (files browser / game list).
+
+---
+
+### 🖼️ Imagens e mídia
+- **Coil** → carregamento de imagens leve e rápido (Compose-ready).
+- **Lottie** → animações vetoriais JSON (loading, instalação, efeitos).
+
+---
+
+### 🌀 Animações avançadas
+- **MotionLayout (Compose/ConstraintLayout)** → animações complexas e transições fluidas.
+
+---
+
+## ⚙️ Ferramentas essenciais para apps profissionais (recomendado junto)
+
+### 🧠 Estado, arquitetura e performance
+- **ViewModel + StateFlow / Flow** → estado reativo estável (sem bugs/tela preta).
+- **Hilt ou Koin (DI)** → injeção de dependência profissional.
+- **DataStore Preferences** → configs do app (tema, paths, ajustes).
+- **Room** → banco local (histórico, configs avançadas, installs, logs).
+
+---
+
+### 🌐 Rede / downloads / updates
+- **OkHttp + Retrofit** → downloads, APIs, logs HTTP.
+- **WorkManager** → tarefas em background (download/install sem travar UI).
+
+---
+
+### 🧪 Debug / logs / qualidade
+- **Timber / Logger** → logs organizados e limpos.
+- **LeakCanary** → detectar vazamento de memória.
+- **SplashScreen API (AndroidX)** → splash nativa moderna (melhor UX, evita tela preta feia).
+
+---
+
+## ⭐ Stack recomendada (Launcher/Game Installer Premium)
+- Jetpack Compose
+- Material 3
+- Navigation Compose
+- Accompanist
+- Coil
+- Lottie
+- ConstraintLayout for Compose
+- WorkManager
+- OkHttp
+- DataStore
+- ViewModel + StateFlow
+- Hilt/Koin
+- SplashScreen API
+- Timber + LeakCanary
